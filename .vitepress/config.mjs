@@ -59,7 +59,7 @@ export default defineConfig({
         {
           text: 'Face Tracking Addon',
           items: [
-            { text: 'ガイド', link: '/ja/face-tracking-addon/installation-guide' },
+            { text: 'インストールガイド', link: '/ja/face-tracking-addon/installation-guide' },
             { text: 'BlendShareの使用方法', link: '/ja/face-tracking-addon/blendshare' },
             { text: 'ドキュメント', link: '/ja/face-tracking-addon/documents' },
             { text: 'Eye Tracking Setings', link: '/ja/face-tracking-addon/eye-tracking-settings' },
@@ -72,9 +72,9 @@ export default defineConfig({
         {
           text: 'Face Tracking Addon',
           items: [
-            { text: 'Instalation Guide', link: '/ko/face-tracking-addon/installation-guide' },
-            { text: 'How to use BlendShare', link: '/ko/face-tracking-addon/blendshare' },
-            { text: 'Documents', link: '/ko/face-tracking-addon/documents' },
+            { text: '설치 가이드', link: '/ko/face-tracking-addon/installation-guide' },
+            { text: 'BlendShare 사용 방법', link: '/ko/face-tracking-addon/blendshare' },
+            { text: '문서', link: '/ko/face-tracking-addon/documents' },
             { text: 'Eye Tracking Setings', link: '/ko/face-tracking-addon/eye-tracking-settings' },
             { text: 'Q-Parameters Creator', link: '/ko/face-tracking-addon/quantization-parameters-creator' },
           ]

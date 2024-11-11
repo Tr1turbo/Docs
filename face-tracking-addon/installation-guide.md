@@ -1,6 +1,6 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Face Tracking Addon Installation Guide
 ## Import dependent assets & packages
-- [Modular Avatar](https://modular-avatar.nadena.dev/) (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.19)
 - Original Avatar
 - **BlendShare**:\
   a blendshapes extract and distribute tool I developed.\
@@ -11,6 +11,8 @@
 - Import `.unitypackage` to your project
 
 A new menu will appear after import.
+![triturbo_ft](/triturbo_ft.png)
+
 Click the buttom at menu to open the window.
 ![ft_window](./assets/ft_window.png)
 

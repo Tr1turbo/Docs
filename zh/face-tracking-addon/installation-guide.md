@@ -1,7 +1,7 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 面捕套件安裝指南
 
 ## 導入依賴資產和包
-- [Modular Avatar](https://modular-avatar.nadena.dev/) (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.19)
 - Avatar 本體
 - **BlendShare**：一個我開發的型態鍵提取和分發工具。\
 *已包含在文件中*
@@ -12,6 +12,8 @@
 - 將 `.unitypackage` 導入到你的項目中。
 
 導入後將出現一個新菜單。
+![triturbo_ft](/triturbo_ft.png)
+
 點擊菜單中的按鈕以打開窗口。
 ![ft_window](./assets/ft_window.png)
 

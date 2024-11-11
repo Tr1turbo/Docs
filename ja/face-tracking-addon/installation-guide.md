@@ -1,6 +1,6 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 顔追跡アドオンのインストールガイド
 ## 依存するアセットとパッケージのインポート
-- [Modular Avatar](https://modular-avatar.nadena.dev/) (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.19)
 - アバター本体
 - **BlendShare**：私が開発したシェイプキーの抽出と配布ツール。\
 *ファイルに含まれています*
@@ -13,13 +13,15 @@
 `.unitypackage` をインポートしてください。
 
 インポート後、新しいメニューが表示されます。
-メニューのボタンをクリックしてウィンドウを開きます。
+![triturbo_ft](/triturbo_ft.png)
+
+メニューのボタンをクリックしてウィンドウを開いてください。
 ![ft_window](./assets/ft_window.png)
 
-アバターのGameObjectまたはPrefabを`アバター`フィールドにドラッグします。
+アバターのGameObjectまたはPrefabを`アバター`フィールドにドラッグしてください。
 ![ft_window](./assets/ft_window_avatar.png)
 
-最後に、`元のアバターにフェストラを作成する`をクリックします。
+最後に、`元のアバターにフェストラを作成する`をクリックしてください。
 
 :::info
 💡 オリジナルのアバターGameObjectを変更したくない場合は、代わりに`新しいアバターにフェストラを作成する`をクリックしてください。

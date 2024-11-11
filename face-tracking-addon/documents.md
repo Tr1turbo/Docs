@@ -63,6 +63,7 @@ If you notice broken blendshapes after installation, use an unmodified FBX to ge
 - Match FBX export Scaling settings with the original model and consider `Apply Transform` options carefully.
   - When you see 1m(File) to 1m (Unity) in Unity’s FBX Import Settings, select FBX Unit Scale in Blender.
   - Avoid selecting `Apply Transform`; if blendshapes are wrong direction, try selecting `Apply Transform` as a last resort.
+    ![Blender Export](/blender_fbx_export_transform.png)
 
 **Permitted Changes:**
 - Add bones and edit weights
@@ -75,7 +76,7 @@ If you notice broken blendshapes after installation, use an unmodified FBX to ge
 ## Adjusting Eye Shape Resetting
 This face tracking system blends some blend shapes to `0` when the eyes close to prevent clipping. This process is smooth and seamless. When eyes are open, the face shape follows user-defined blend shapes, but when eyes close, the system “resets” to `0`.
 
-The reset intensity can be easily customized using the [Eye Tracking Settings](eye-tracking-settings) component.\
+The reset intensity can be easily customized using the [Eye Tracking Settings](./eye-tracking-settings) component.\
 **Intensity 1** means the blend shapes fully reset to 0 when eyes close, while **Intensity 0** means no reset occurs.
 
 ### How to Adjust Blendshapes for Custom Face Shapes
@@ -113,9 +114,9 @@ When `JawDrop*` is 100, the jaw moves downward, and the upper jaw remains fixed.
 :::
 
 ## Adjusting Parameter Resolution and Scaling
-When viewing the face tracking object in the Inspector, you’ll see the [Quantization Parameters Creator](quantization-parameters-creator) component displayed as shown below:
+When viewing the face tracking object in the Inspector, you’ll see the [Quantization Parameters Creator](./quantization-parameters-creator) component displayed as shown below:
 
-![](/qpc.png)
+![Quantization Parameters Creator](/qpc.png)
 
 Each item is a parameter used by face tracking, where you can adjust **resolution** and **scale factor**. The **resolution** affects the final synced parameter usage.
 
@@ -125,4 +126,3 @@ Quantization techniques are used to reduce synced parameter usage. In `VRC Expre
 > The minimum resolution value is `0` (no sync), while the maximum is `8` (equivalent to `float`).
 > 
 > Setting the resolution below `2` is not recommended.
->

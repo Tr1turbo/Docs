@@ -4,7 +4,7 @@ Eye Tracking Settings はユーザーが眼球追跡の設定を調整しやす�
 
 **Eye Weight**（眼球の重み係数）と **Reset Weight**（リセットの重み係数）。
 
-![Eye Tracking Settings](/eye-tracking-settings.png)
+![Eye Tracking Settings](/eye_tracking_settings.png)
 ## パラメータ
 **Eye Weight** は眼球追跡用の `EyeClosed` シェイプキーの強さを表します。カスタマイズした目がデフォルトより小さい場合は、値を減らしてください。
 
@@ -15,7 +15,7 @@ Eye Tracking Settings はユーザーが眼球追跡の設定を調整しやす�
 ## Preview ボタン
 `Preview` ボタンをクリックすると、調整した内容のプレビューを表示できます。ボタンをクリックするとプレビューモードに入り、パラメータスライダーを調整することでもプレビューモードが有効になります。プレビューモードを終了して結果を保存するには、再度ボタンをクリックしてください。コンポーネントがフォーカスを失うと、プレビューモードは自動的に終了して変更が保存されますが、すべてが正しく保存されるようにするためにボタンをクリックすることをお勧めします。
 
-![Preview](/eye-tracking-settings-preview.png)
+![Preview](/eye_tracking_settings_preview.png)
 
 ## クリエイター設定
 **Creator Settings** は、ユーザーが変更しないようにすべき領域であり、変更すると問題が発生する可能性があります。この部分はフェイストラッキングのクリエイター専用に設計されています。

@@ -1,6 +1,6 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 페이셜트레킹 애드온 설치 가이드
 ## 에셋 및 패키지 임포트하기
-- [모듈러아바타](https://modular-avatar.nadena.dev/) (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) 모듈러아바타 (≥1.19)
 - 오리지널 아바타
 - **BlendShare**：제작자가 개발한 블렌드쉐이프 추출 및 배포도구입니다.\
 *페이셜 파일에 포함됨*
