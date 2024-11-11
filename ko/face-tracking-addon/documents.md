@@ -99,7 +99,7 @@ The blend shape that controls mouth opening and jaw drop is `JawOpen`.
 - `JawDrop*` for jaw movement
 - `MouthOpen*` for mouth opening
   
-![JawDrop](../public/jawdrop_mouthopen_compare.jpg)
+![JawDrop](/jawdrop_mouthopen_compare.jpg)
 By default, the upper jaw remains fixed while the jaw drops.
 
 Adjust the `JawDrop*` values in the `JawOpen` animation under `Animations/` to modify the jaw drop effect.
