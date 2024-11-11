@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Triturbo",
+  base: "/Docs/",
   description: "Documents and Tutorials",
   themeConfig: {
     logo:'/triturbo_logo.png',
