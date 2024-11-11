@@ -115,6 +115,7 @@ VIVE 使用 SRanipal 參數相較Quest 與 Pico設備在眼睛方面少了眉毛
 - `JawDrop*` 下巴移動
 - `MouthOpen*` 張嘴
 
+![JawDrop](../public/jawdrop_mouthopen_compare.jpg)
 預設為上顎不動，下巴掉落。您可以更改動畫來調整下巴掉落的幅度。
 
 請在 `Animations/` 下找到 `JawOpen` 動畫，依照喜好調整 `JawDrop*` 的值。
