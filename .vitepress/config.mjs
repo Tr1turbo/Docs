@@ -8,11 +8,11 @@ export default defineConfig({
   themeConfig: {
     logo:'/triturbo_logo.png',
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      //{ text: 'Home', link: '/' },
-      { text: 'Face Tracking Addon', link: '/face-tracking-addon' },
-      { text: 'BlendShare', link: '/blendshare' },
-    ],
+    // nav: [
+
+    //   { text: 'Face Tracking Addon', link: '/face-tracking-addon' },
+    //   { text: 'BlendShare', link: '/blendshare' },
+    // ],
 
     sidebar: {
       '/': [
@@ -40,17 +40,17 @@ export default defineConfig({
         {
           text: 'Face Tracking Addon',
           items: [
-            { text: '安裝指南', link: '/face-tracking-addon/installation-guide' },
-            { text: '如何使用 BlendShare', link: '/face-tracking-addon/blendshare' },
-            { text: '文檔', link: '/face-tracking-addon/documents' },
-            { text: 'Eye Tracking Setings', link: '/face-tracking-addon/eye-tracking-settings' },
-            { text: 'Q-Parameters Creator', link: '/face-tracking-addon/quantization-parameters-creator' },
+            { text: '安裝指南', link: '/zh/face-tracking-addon/installation-guide' },
+            { text: '如何使用 BlendShare', link: '/zh/face-tracking-addon/blendshare' },
+            { text: '文檔', link: '/zh/face-tracking-addon/documents' },
+            { text: 'Eye Tracking Setings', link: '/zh/face-tracking-addon/eye-tracking-settings' },
+            { text: 'Q-Parameters Creator', link: '/zh/face-tracking-addon/quantization-parameters-creator' },
           ]
         },
         {
           text: 'BlendShare',
           items: [
-            { text: 'BlendShare', link: '/blendshare/' },
+            { text: 'BlendShare', link: '/zh/blendshare/' },
           ]
         },
       ],
@@ -59,11 +59,24 @@ export default defineConfig({
         {
           text: 'Face Tracking Addon',
           items: [
-            { text: 'ガイド', link: '/face-tracking-addon/installation-guide' },
-            { text: 'BlendShareの使用方法', link: '/face-tracking-addon/blendshare' },
-            { text: 'ドキュメント', link: '/face-tracking-addon/documents' },
-            { text: 'Eye Tracking Setings', link: '/face-tracking-addon/eye-tracking-settings' },
-            { text: 'Q-Parameters Creator', link: '/face-tracking-addon/quantization-parameters-creator' },
+            { text: 'ガイド', link: '/ja/face-tracking-addon/installation-guide' },
+            { text: 'BlendShareの使用方法', link: '/ja/face-tracking-addon/blendshare' },
+            { text: 'ドキュメント', link: '/ja/face-tracking-addon/documents' },
+            { text: 'Eye Tracking Setings', link: '/ja/face-tracking-addon/eye-tracking-settings' },
+            { text: 'Q-Parameters Creator', link: '/ja/face-tracking-addon/quantization-parameters-creator' },
+          ]
+        },
+      ],
+
+      '/ko/': [
+        {
+          text: 'Face Tracking Addon',
+          items: [
+            { text: 'Instalation Guide', link: '/ko/face-tracking-addon/installation-guide' },
+            { text: 'How to use BlendShare', link: '/ko/face-tracking-addon/blendshare' },
+            { text: 'Documents', link: '/ko/face-tracking-addon/documents' },
+            { text: 'Eye Tracking Setings', link: '/ko/face-tracking-addon/eye-tracking-settings' },
+            { text: 'Q-Parameters Creator', link: '/ko/face-tracking-addon/quantization-parameters-creator' },
           ]
         },
       ],

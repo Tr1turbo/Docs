@@ -1,21 +1,19 @@
-# <img src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Eye Tracking Settings
+# <img src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 眼動追蹤設定
 
-Eye Tracking Settings is a component designed to make it easier for users to adjust settings for eye tracking.
-You can adjust the following parameters: Eye Weight and Reset Weight.
-
-
-## Parameters
-
-**Eye Weight** represents the intensity of the `EyeClosed` blendshape for eye tracking. Reduce the value if you have customized eyes that are smaller than the default.
-
-**Reset Weight** represents the target intensity of setting your customized eye shape to default when your eyes are fully closed.
-When the eye is open, the intensity is 0, and it will gradually blend to the target value you set when the eyes are closed.
-
-These settings help in fine-tuning the eye tracking experience, ensuring it works seamlessly with different eye shapes and sizes.
+Eye Tracking Settings 是一個旨在讓使用者更容易調整眼動追蹤設定的組件。您可以調整以下參數：Eye Weight(眼睛權重) 和 Reset Weight (重置權重)。
 
 
-## Preview Button
-The Preview button allows users to see a preview of the adjustments they make. Clicking the button will enter preview mode, and adjusting the parameter slider will also activate preview mode. To exit preview mode and save the results, users should click the button again. If the component loses focus, the preview mode will automatically exit and save the changes, but it is recommended to click the button to ensure everything is saved properly.
+## 參數
+
+**眼睛權重** 代表 `EyeClosed` 型態鍵在眼動追蹤中的強度。如果您的自訂眼睛比預設值小，請減少該值。
+
+**重設權重** 代表在眼睛完全閉合時將自訂眼形重設為預設值的強度。當眼睛睜開時，重置權重為0，當眼睛閉合時，它會逐漸混合到您設定的目標值。
+
+這些設定有助於微調眼動追蹤體驗，確保其與不同的眼形和大小無縫配合。
+
+
+## 預覽按鈕
+`Preview` 按鈕可讓使用者查看所做調整的預覽。點擊按鈕將進入預覽模式，調整參數滑桿也會啟動預覽模式。若要退出預覽模式並儲存結果，使用者應再次點擊該按鈕。如果元件失去焦點，預覽模式將自動退出並儲存更改，但建議點擊按鈕以確保一切都已儲存。
 
 ## Creator Settings
-**Creator Settings** is an area that users should not modify as it may cause issues. This section is designed specifically for the facetracking creator.
+**Creator Settings** 是一個使用者不應修改的區域，因為這可能會導致問題。此部分專為創作者設計。

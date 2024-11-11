@@ -1,21 +1,21 @@
-# <img src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Eye Tracking Settings
+# <img src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 眼球追跡設定
 
-Eye Tracking Settings is a component designed to make it easier for users to adjust settings for eye tracking.
-You can adjust the following parameters: Eye Weight and Reset Weight.
+Eye Tracking Settings はユーザーが眼球追跡の設定を調整しやすくするためのコンポーネントです。以下のパラメータを調整できます：
 
+**Eye Weight**（眼球の重み係数）と **Reset Weight**（リセットの重み係数）。
 
-## Parameters
+![Eye Tracking Settings](/eye-tracking-settings.png)
+## パラメータ
+**Eye Weight** は眼球追跡用の `EyeClosed` シェイプキーの強さを表します。カスタマイズした目がデフォルトより小さい場合は、値を減らしてください。
 
-**Eye Weight** represents the intensity of the `EyeClosed` blendshape for eye tracking. Reduce the value if you have customized eyes that are smaller than the default.
+**Reset Weight** は、目が完全に閉じたときにカスタマイズした目の形をデフォルトに戻す強さを表します。目が開いているときはリセットの重み係数は0で、目が閉じたときに設定した目標値に徐々にブレンドされます。
 
-**Reset Weight** represents the target intensity of setting your customized eye shape to default when your eyes are fully closed.
-When the eye is open, the intensity is 0, and it will gradually blend to the target value you set when the eyes are closed.
+これらの設定は眼球追跡の体験を微調整し、さまざまな目の形や大きさにシームレスに対応できるようにします。
 
-These settings help in fine-tuning the eye tracking experience, ensuring it works seamlessly with different eye shapes and sizes.
+## Preview ボタン
+`Preview` ボタンをクリックすると、調整した内容のプレビューを表示できます。ボタンをクリックするとプレビューモードに入り、パラメータスライダーを調整することでもプレビューモードが有効になります。プレビューモードを終了して結果を保存するには、再度ボタンをクリックしてください。コンポーネントがフォーカスを失うと、プレビューモードは自動的に終了して変更が保存されますが、すべてが正しく保存されるようにするためにボタンをクリックすることをお勧めします。
 
+![Preview](/eye-tracking-settings-preview.png)
 
-## Preview Button
-The Preview button allows users to see a preview of the adjustments they make. Clicking the button will enter preview mode, and adjusting the parameter slider will also activate preview mode. To exit preview mode and save the results, users should click the button again. If the component loses focus, the preview mode will automatically exit and save the changes, but it is recommended to click the button to ensure everything is saved properly.
-
-## Creator Settings
-**Creator Settings** is an area that users should not modify as it may cause issues. This section is designed specifically for the facetracking creator.
+## クリエイター設定
+**Creator Settings** は、ユーザーが変更しないようにすべき領域であり、変更すると問題が発生する可能性があります。この部分はフェイストラッキングのクリエイター専用に設計されています。
