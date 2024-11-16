@@ -10,7 +10,7 @@
 - Download contents from the [Booth store](https://triturbo.booth.pm/)
 - Import `.unitypackage` to your project
 
-A new menu will appear after import.
+A new menu `TriturboFT` will appear after import.
 ![triturbo_ft](/triturbo_ft.png)
 
 Click the buttom at menu to open the window.

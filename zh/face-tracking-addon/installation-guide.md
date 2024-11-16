@@ -11,7 +11,7 @@
 - 從 [Booth 商店](https://triturbo.booth.pm/) 中下載內容。
 - 將 `.unitypackage` 導入到你的項目中。
 
-導入後將出現一個新菜單。
+導入後將出現一個新菜單 `TriturboFT`。
 ![triturbo_ft](/triturbo_ft.png)
 
 點擊菜單中的按鈕以打開窗口。

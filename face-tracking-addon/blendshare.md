@@ -19,7 +19,7 @@ You can add your own blendshapes, modify UVs of your FBX and **BlendShare** can 
 <!-- #region get-fbx -->
 ### ❓ I need an FBX file with face tracking blendshapes, where can I get it?
 
-The addon will only generate mesh assets because it is the fastest way to add blendshapes.You will need to practice the steps below to generate an FBX file.
+The addon will only generate mesh assets because it is the fastest way to add blendshapes.You will need to follow the steps below to generate an FBX file.
 
 1. Locate the **BlendShare** data asset file at `Triturbo/xxx_FT/Blendshapes/xxx_FT_BlendShare`.
 

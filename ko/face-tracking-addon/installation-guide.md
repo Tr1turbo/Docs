@@ -15,7 +15,7 @@
 임포트 한 후 새 메뉴가 나타납니다.
 ![triturbo_ft](/triturbo_ft.png)
 
-TriturboFT 메뉴를 클릭한 후 창을 열어주세요.
+`TriturboFT` 메뉴를 클릭한 후 창을 열어주세요.
 ![ft_window](./assets/ft_window.png)
 
 Hierarchy 에 있는 아바타 오브젝트나 프리팹을 상자로 끌어다 놓습니다.
