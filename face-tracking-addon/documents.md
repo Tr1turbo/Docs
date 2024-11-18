@@ -37,7 +37,7 @@ None of the above devices support pupil diameter detection, nor do they support 
 :::
 
 ## Mesh Generation
-The face-tracking mesh with blend shapes is not included in the plugin but is generated during installation via [<img src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare.md). When installing face tracking addon on an Avatar for the first time, the tool will generate a mesh with face-tracking blendshapes.
+The face-tracking mesh with blend shapes is not included in the plugin but is generated during installation via [<img src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare). When installing face tracking addon on an Avatar for the first time, the tool will generate a mesh with face-tracking blendshapes.
 
 By default, this mesh generated from the original FBX found via `guid`, not from the mesh currently in use by your avatar.\
 Select `FBX currently in used by the avatar` to use the new FBX as the base to add blendshapes.

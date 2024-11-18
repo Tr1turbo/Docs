@@ -43,7 +43,7 @@ VIVE 使用 SRanipal 參數相較 Quest 與 Pico 設備在眼睛方面少了眉�
 
 ## 網格的生成
 
-添加面捕用型態鍵的網格並不包含於本插件內，而是通過 [<img src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare.md) 在您安裝面捕時生成。
+添加面捕用型態鍵的網格並不包含於本插件內，而是通過 [<img src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare) 在您安裝面捕時生成。
 當您第一次為Avatar安裝面捕，工具會為您生成帶有面捕用型態鍵的網格。
 
 該網格默認透過 `guid` 查找，並由原 FBX 生成，並非是當前安裝對象正在使用的網格。

@@ -16,7 +16,6 @@ These assets can be easily shared and applied to compatible FBX files.
 You can add your own blendshapes, modify UVs of your FBX and **BlendShare** can still add blendshapes to your modified FBX.
 
 ---
-<!-- #region get-fbx -->
 ### ❓ I need an FBX file with face tracking blendshapes, where can I get it?
 
 The addon will only generate mesh assets because it is the fastest way to add blendshapes.You will need to follow the steps below to generate an FBX file.
@@ -27,4 +26,3 @@ The addon will only generate mesh assets because it is the fastest way to add bl
 
 3. Click `Apply blendshapes as new FBX`, then you will get a FBX file with blendshapes added.
 ![Apply Face Tracking as New Avatar](/apply_blendshapes_as_new_fbx.png)
-<!-- #endregion get-fbx -->

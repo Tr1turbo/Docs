@@ -31,7 +31,7 @@ An avatar with **face tracking addon** will appear in *Hierarchy*.
 ## How to get the FBX file?
 If you need to obtain the FBX file for further modifications, please refer to the following article.
 
-[I need an FBX file with face tracking blendshapes, where can I get it?](blendshare)
+[I need an FBX file with face tracking blendshapes, where can I get it?](./blendshare)
 
 ## Preset Options
 During installation, you will see multiple preset options to choose from, including:
