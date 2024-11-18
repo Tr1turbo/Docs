@@ -52,17 +52,15 @@ Because face tracking requires a large number of parameters and uses Expression 
 We use parameter quantization techniques to reduce the bit size needed for floating-point numbers.  
 :::
 
-### Differences Between VIVE, Quest and Pico Versions
-VIVE uses SRanipal parameters, whereas the Quest and Pico devices have fewer features for eye tracking. Specifically, VIVE supports eyebrow detection, while Quest and Pico devices do not, but VIVE includes pupil diameter tracking.
+### Differences between VIVE and Quest, Pico versions
+- VIVE uses SRanipal parameters, which, compared to Quest and Pico devices:
+  - For the eyes, VIVE lacks eyebrow detection but includes pupil diameter detection.
+  - For the mouth, VIVE lacks detection for MouthDimple, MouthStretch, and NoseSneer.
 
-Regarding mouth tracking, VIVE has features like MouthDimple, MouthStretch, and NoseSneer that are absent in Quest and Pico.  
-::: info 💡 The above description applies specifically to the **VIVE Pro Eye** device  
+::: info 💡 The above description only applies specifically to the **VIVE Pro Eye** device.
+- **VIVE Focus 3 + Facial Expression Detection Kit**
+- **VIVE Focus Vision**
+- **VIVE XR Elite + Full-Face Detection Kit**
 
-
-- VIVE Focus 3 + Facial Expression Tracking Kit
-- VIVE Focus Vision  
-- VIVE XR Elite + Full-Face Tracking Kit
-These devices do not support pupil diameter tracking.\
-Additionally, they do not support `EyeWide` (wide-open eyes) or `EyeSquint` (squinted eyes).  
-All VIVE devices show similar performance in mouth tracking.
+None of the above devices support pupil diameter detection, nor do they support `EyeWide` and `EyeSquint`. In terms of mouth capture, all VIVE devices perform similarly.
 :::

@@ -53,16 +53,15 @@ HDとSDは**解像度**の違いを指し、HDはより高解像度で、より�
 浮動小数点数のビットサイズを削減するために、パラメーター量子化技術を使用しています。  
 :::
 
-### VIVE、Quest、Picoバージョンの違い  
-VIVE は SRanipal パラメーターを使用しますが、Quest および Pico デバイスにはアイトラッキングの機能が少ないです。具体的には、VIVE は眉の検出をサポートしていますが、Quest および Pico デバイスはサポートしていません。また、VIVE は瞳孔直径のトラッキングも可能です。
+### VIVEとQuest、Picoバージョンの違い
+- VIVEはSRanipalパラメータを使用し、QuestやPicoのデバイスと比較して：
+  - 目に関しては、眉毛の検出がなく、代わりに瞳孔の直径の検出があります。
+  - 口に関しては、MouthDimple、MouthStretch、NoseSneerの検出がありません。
 
-口のトラッキングに関しては、VIVE には MouthDimple、MouthStretch、NoseSneer といった機能がありますが、QuestやPicoにはありません。
+::: info 💡 上記の説明はVIVE Pro Eyeデバイスにのみ該当します。
+- VIVE Focus 3 + Facial Expression Tracking Kit
+- VIVE Focus Vision
+- VIVE XR Elite + Full-Face Tracking Kit
 
-::: info 💡 上記の説明は特に **VIVE Pro Eye** デバイスに該当します。  
-- VIVE Focus 3 + Facial Expression Tracking Kit  
-- VIVE Focus Vision  
-- VIVE XR Elite + Full-Face Tracking Kit  
-これらのデバイスは瞳孔直径トラッキングをサポートしていません。  
-また、`EyeWide`（目を大きく開ける）や`EyeSquint`（目を細める）もサポートしていません。  
-すべてのVIVEデバイスは口のトラッキングにおいては同等のパフォーマンスを示します。  
+上記のデバイスは瞳孔の直径検出をサポートしておらず、また`EyeWide`（目を大きく開ける）や`EyeSquint`（目を細める）もサポートしていません。口のキャプチャに関しては、各VIVEデバイスは基本的に同じパフォーマンスを示します。
 :::

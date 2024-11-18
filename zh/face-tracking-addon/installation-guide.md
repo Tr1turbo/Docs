@@ -56,7 +56,7 @@ HD 與 SD 代表者**解析度**的不同，HD有著更高的解析度但是需�
 
 ### VIVE 與 Quest, Pico 版本的差異
 
-VIVE 使用 SRanipal 參數相較Quest 與 Pico設備在眼睛方面少了眉毛偵測、多了瞳孔直徑。
+VIVE 使用 SRanipal 參數相較 Quest 與 Pico 設備在眼睛方面少了眉毛偵測、多了瞳孔直徑。
 而在嘴部少了 MouthDimple, MouthStretch, NoseSneer。
 
 ::: info 💡 上述說明僅代表 VIVE Pro Eye設備

@@ -56,17 +56,15 @@ HD와 SD는 **해상도** 차이를 나타내며, HD는 더 높은 해상도를 
 우리는 부동소수점 숫자에 필요한 비트 크기를 줄이기 위해 파라미터 양자화 기술을 사용합니다.  
 :::
 
-### VIVE, Quest 및 Pico 버전의 차이점  
-VIVE는 SRanipal 파라미터를 사용하지만, Quest 및 Pico 장치에는 눈 추적 기능이 적습니다. 구체적으로 VIVE는 눈썹 검출을 지원하지만, Quest와 Pico 장치는 지원하지 않으며 VIVE는 동공 직경 추적도 가능합니다.
+### VIVE와 Quest, Pico 버전의 차이점
+- VIVE는 SRanipal 파라미터를 사용하며, Quest와 Pico 장치와 비교했을 때:
+  - 눈 부분에서는 눈썹 감지가 없고, 대신 동공 지름 감지가 있습니다.
+  - 입 부분에서는 MouthDimple, MouthStretch, NoseSneer 감지가 없습니다.
 
-입 추적의 경우, VIVE에는 MouthDimple, MouthStretch, NoseSneer 등의 기능이 있지만, Quest와 Pico에는 없습니다.  
-::: info 💡 위 설명은 특히 **VIVE Pro Eye** 장치에 해당됩니다.  
-
-
-- VIVE Focus 3 + Facial Expression Tracking Kit  
+::: info 💡 상기 설명은 **VIVE Pro Eye** 장비에만 해당됩니다.
+- VIVE Focus 3 + Facial Expression Tracking Kit 
 - VIVE Focus Vision  
-- VIVE XR Elite + Full-Face Tracking Kit  
-이 장치들은 동공 직경 추적을 지원하지 않습니다.  
-또한 `EyeWide`(눈을 크게 뜸)와 `EyeSquint`(눈을 가늘게 뜸)도 지원하지 않습니다.  
-모든 VIVE 장치는 입 추적에서 유사한 성능을 보입니다.  
+- VIVE XR Elite + Full-Face Tracking Kit
+
+위의 장비들은 동공 지름 감지를 지원하지 않으며, `EyeWide`(눈을 크게 뜨는 것)와 `EyeSquint`(눈을 찡그리는 것)도 지원하지 않습니다. 입 부분 감지에서는 모든 VIVE 장비가 기본적으로 동일한 성능을 보입니다.
 :::
