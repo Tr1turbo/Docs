@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Triturbo's BOOTH"
-  text: "文檔與教學"
+  text: "文档与教学"
   tagline: 
   image:
     src: /triturbo_logo.png

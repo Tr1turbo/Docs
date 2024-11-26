@@ -1,6 +1,6 @@
 # 量化参数创建器
 
-量化参数创建器 (Quantization Parameters Creator) 是一个非破坏性工具，用于创建二进制参数(binary parameters)以减少同步参数。
+<ruby>量化参数创建器<rt>Quantization Parameters Creator</rt></ruby> 是一个非破坏性工具，用于创建 <ruby>二进制参数<rt>Binary Parameters</rt></ruby> 以减少同步参数。
 
 [**二进制参数**](https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/parameters/types/binary) 指的是一种参数系统，[VRCFaceTracking](https://docs.vrcft.io/) 用于通过一组 **Bool** 参数发送跟踪数据，这些参数代表一个浮点参数。
 
