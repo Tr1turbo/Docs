@@ -5,7 +5,7 @@ This tool enables the extraction of blendshapes from FBX files and stores them i
 These assets can be easily shared and applied to compatible FBX files.
 
 
-# Extractor
+## Extractor
 Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extractor.
 
 - Origin FBX
@@ -27,7 +27,7 @@ Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extra
     - **Custom**
         - Toggle which blendshapes should be extracted individually.
 
-## Custom Extraction
+### Custom Extraction
 - This method allows you to manually select which blendshapes to extract by toggling them on or off. It provides the most control and gives the ability to extract and override blendshapes that already exist in the original FBX.
 
 - If you right-click the toggle, a context menu with three options will appear: `Select to End`, `Deselect to End`, and `Select from Here`. This feature provides a quick way to manage multiple blendshapes efficiently.
@@ -36,10 +36,8 @@ Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extra
 - `Deselect to End` will toggle off blendshapes from the current position to the end.
 - Click `Select from Here`, then right-click and select `Select to Here` to toggle on blendshapes from the current position to the selected end.
 
----
 
-# Blendshapes Data
-
+## Blendshapes Data
 Click `Apply blendshapes` to add blendshapes directly to the original FBX file.
 
 Click `Apply blendshapes as new FBX` to generate a copy of original FBX and add blendshapes to the copy.

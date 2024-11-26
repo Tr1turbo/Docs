@@ -36,21 +36,40 @@ export default defineConfig({
 
       ],
 
-      '/zh/': [
+      '/zh-hant/': [
         {
           text: 'Face Tracking Addon',
           items: [
-            { text: '安裝指南', link: '/zh/face-tracking-addon/installation-guide' },
-            { text: '如何使用 BlendShare', link: '/zh/face-tracking-addon/blendshare' },
-            { text: '文檔', link: '/zh/face-tracking-addon/documents' },
-            { text: 'Eye Tracking Setings', link: '/zh/face-tracking-addon/eye-tracking-settings' },
-            { text: 'Q-Parameters Creator', link: '/zh/face-tracking-addon/quantization-parameters-creator' },
+            { text: '安裝指南', link: '/zh-hant/face-tracking-addon/installation-guide' },
+            { text: '如何使用 BlendShare', link: '/zh-hant/face-tracking-addon/blendshare' },
+            { text: '面捕文檔', link: '/zh-hant/face-tracking-addon/documents' },
+            { text: '眼動追蹤設定', link: '/zh-hant/face-tracking-addon/eye-tracking-settings' },
+            { text: '量化參數創建器', link: '/zh-hant/face-tracking-addon/quantization-parameters-creator' },
           ]
         },
         {
           text: 'BlendShare',
           items: [
-            { text: 'BlendShare', link: '/zh/blendshare/' },
+            { text: 'BlendShare', link: '/zh-hant/blendshare/' },
+          ]
+        },
+      ],
+
+      '/zh-hans/': [
+        {
+          text: 'Face Tracking Addon',
+          items: [
+            { text: '安装指南', link: '/zh-hans/face-tracking-addon/installation-guide' },
+            { text: '如何使用 BlendShare', link: '/zh-hans/face-tracking-addon/blendshare' },
+            { text: '面捕文档', link: '/zh-hans/face-tracking-addon/documents' },
+            { text: '眼动追踪设定', link: '/zh-hans/face-tracking-addon/eye-tracking-settings' },
+            { text: '量化参数创建器', link: '/zh-hans/face-tracking-addon/quantization-parameters-creator' },
+          ]
+        },
+        {
+          text: 'BlendShare',
+          items: [
+            { text: 'BlendShare', link: '/zh-hans/blendshare/' },
           ]
         },
       ],
@@ -100,11 +119,19 @@ export default defineConfig({
       label: 'English',
       lang: 'en'
     },
-    zh: {
-      label: '中文',
-      lang: 'zh',
-      link: '/zh/'
+
+    "zh-hant": {
+      label: '繁體中文',
+      lang: 'zh-hant',
+      link: '/zh-hant/'
     },
+
+    "zh-hans": {
+      label: '简体中文',
+      lang: 'zh-hans',
+      link: '/zh-hans/'
+    },
+
     ja: {
       label: '日本語',
       lang: 'ja',
