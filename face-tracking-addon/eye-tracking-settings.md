@@ -1,4 +1,4 @@
-# <img src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Eye Tracking Settings
+# <img class="dark-only" src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> <img class="light-only" src="/eye_tracking_settings_icon_light_mode.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Eye Tracking Settings
 
 Eye Tracking Settings is a component designed to make it easier for users to adjust settings for eye tracking.
 You can adjust the following parameters:

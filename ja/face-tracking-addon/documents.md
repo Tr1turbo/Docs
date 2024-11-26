@@ -37,7 +37,7 @@ HDとSDは**解像度**の違いを指し、HDは高解像度ですが、同期�
 :::
 
 ## メッシュ生成
-フェイストラッキング用メッシュとシェイプキーはプラグインに含まれていませんが、インストール時に [<img src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare) 経由で生成されます。アバターに初めてフェイストラッキングアドオンをインストールする際、ツールはフェイストラッキングのシェイプキーを持つメッシュを生成します。
+フェイストラッキング用メッシュとシェイプキーはプラグインに含まれていませんが、インストール時に [<img class="dark-only" src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/><img class="light-only" src="/blendshare_light_mode.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare) 経由で生成されます。アバターに初めてフェイストラッキングアドオンをインストールする際、ツールはフェイストラッキングのシェイプキーを持つメッシュを生成します。
 
 デフォルトでは、このメッシュは `guid` を通じて見つけた元のFBXから生成され、現在使用中のメッシュではありません。\
 `アバターが使用中のFBX` を選択すると、新しいFBXを基にシェイプキーを追加します。

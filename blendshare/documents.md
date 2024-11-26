@@ -1,4 +1,6 @@
-# ![BlendShare](/blendshare.png)
+![BlendShare](/blendshare_light_mode.png){.light-only}
+![BlendShare](/blendshare.png){.dark-only}
+
 BlendShare is an Unity tool designed for creators who need to share blendshapes without distributing the original FBX files.
 
 This tool enables the extraction of blendshapes from FBX files and stores them in a custom asset format: BlendShape Data.

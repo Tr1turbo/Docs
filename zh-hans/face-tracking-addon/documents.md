@@ -43,7 +43,7 @@ VIVE 使用 SRanipal 参数相较 Quest 与 Pico 设备在眼睛方面少了眉�
 
 ## 网格的生成
 
-添加面捕用型态键的网格并不包含于本插件内，而是通过 [<img src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare) 在您安装面捕时生成。
+添加面捕用型态键的网格并不包含于本插件内，而是通过 [<img class="dark-only" src="/blendshare.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/><img class="light-only" src="/blendshare_light_mode.png" alt="BlendShare" style="width: 96px; height: 24px; vertical-align: -5px; display: inline;"/>](./blendshare) 在您安装面捕时生成。
 当您第一次为Avatar安装面捕，工具会为您生成带有面捕用型态键的网格。
 
 该网格默认透过 `guid` 查找，并由原 FBX 生成，并非是当前安装对象正在使用的网格。

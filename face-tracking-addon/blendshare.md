@@ -1,4 +1,4 @@
-# Advanced: How to use <img src="/blendshare.png" alt="BlendShare" style="width: 192px; height: 48px; vertical-align: -9px; display: inline;"/>
+# Advanced: How to use <img class="dark-only" src="/blendshare.png" alt="BlendShare" style="width: 192px; height: 48px; vertical-align: -9px; display: inline;"/> <img class="light-only" src="/blendshare_light_mode.png" alt="BlendShare" style="width: 192px; height: 48px; vertical-align: -9px; display: inline;"/>
 
 :::info
 **BlendShare** is an Unity package designed for creators who need to share blendshapes without distributing the original FBX files.\
@@ -7,7 +7,7 @@ These assets can be easily shared and applied to compatible FBX files.
 :::
 
 
-### ❓ Can I add face tracking blendshapes to a modified FBX?
+## ❓ Can I add face tracking blendshapes to a modified FBX?
 
 
 **Yes!** As long as you didn’t delete a single vertex, it can be consider the same mesh as original FBX.\
@@ -15,8 +15,7 @@ These assets can be easily shared and applied to compatible FBX files.
 
 You can add your own blendshapes, modify UVs of your FBX and **BlendShare** can still add blendshapes to your modified FBX.
 
----
-### ❓ I need an FBX file with face tracking blendshapes, where can I get it?
+## ❓ I need an FBX file with face tracking blendshapes, where can I get it?
 
 The addon will only generate mesh assets because it is the fastest way to add blendshapes.You will need to follow the steps below to generate an FBX file.
 

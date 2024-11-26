@@ -1,4 +1,4 @@
-# <img src="/blendshare.png" alt="BlendShare" style="width: 192px; height: 48px; vertical-align: -9px; display: inline;"/> の使用方法
+# <img class="dark-only" src="/blendshare.png" alt="BlendShare" style="width: 192px; height: 48px; vertical-align: -9px; display: inline;"/> <img class="light-only" src="/blendshare_light_mode.png" alt="BlendShare" style="width: 192px; height: 48px; vertical-align: -9px; display: inline;"/> の使用方法
 
 :::info
 **BlendShare** は、オリジナルのFBXファイルを配布することなくシェイプキーを共有したいクリエイター向けに設計されたUnityパッケージです。\
@@ -6,7 +6,7 @@
 これらのアセットは簡単に共有され、互換性のあるFBXファイルに適用することができます。
 :::
 
-### ❓ 変更されたFBXにフェイストラッキングのシェイプキーを追加できますか？
+## ❓ 変更されたFBXにフェイストラッキングのシェイプキーを追加できますか？
 
 **はい！** 1つの頂点も削除していなければ、元のFBXと同じメッシュと見なされます。\
 （フェイストラッキングはFBXの「Body」（顔メッシュ）にのみシェイプキーを追加するため、他のメッシュを自由に編集できます。）
@@ -15,7 +15,7 @@
 
 ---
 
-### ❓ フェイストラッキングのシェイプキーを含むFBXファイルをどこで手に入れることができますか？
+## ❓ フェイストラッキングのシェイプキーを含むFBXファイルをどこで手に入れることができますか？
 
 このアドオンはシェイプキーを追加する最も速い方法としてメッシュアセットのみを生成します。FBXファイルを生成するには、以下の手順を実行してください。
 

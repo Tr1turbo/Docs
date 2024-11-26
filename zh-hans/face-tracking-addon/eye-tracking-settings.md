@@ -1,4 +1,4 @@
-# <img src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 眼动追踪设置
+# <img class="dark-only" src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> <img class="light-only" src="/eye_tracking_settings_icon_light_mode.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 眼动追踪设置
  
 <ruby>眼动追踪设置<rt>Eye Tracking Settings</rt></ruby> 是一个旨在让使用者更容易调整眼动追踪设置的组件。您可以调整以下参数：
 

@@ -1,6 +1,5 @@
-# <img src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 眼球追跡設定
-
-眼球追跡設定 (Eye Tracking Settings) はユーザーが眼球追跡の設定を調整しやすくするためのコンポーネントです。以下のパラメータを調整できます：
+# <img class="dark-only" src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> <img class="light-only" src="/eye_tracking_settings_icon_light_mode.png" alt="Eye Tracking Settings" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 眼球追跡設定
+<ruby>眼球追跡設定<rt>Eye Tracking Settings</rt></ruby> はユーザーが眼球追跡の設定を調整しやすくするためのコンポーネントです。以下のパラメータを調整できます：
 
 **Eye Weight**（眼球の重み係数）と **Reset Weight**（リセットの重み係数）。
 

@@ -1,4 +1,6 @@
-# ![BlendShare](/blendshare.png)
+![BlendShare](/blendshare_light_mode.png){.light-only}
+![BlendShare](/blendshare.png){.dark-only}
+
 BlendShare 是一款 Unity 工具，专为需要分享型态键而不分发原始 FBX 档案的创作者而设计。
 
 该工具可以从 FBX 档案中提取型态键并将其储存为自订资源格式：型态键资料。
