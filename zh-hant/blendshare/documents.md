@@ -9,6 +9,7 @@ BlendShare 是一款 Unity 工具，專為需要分享型態鍵而不分發原�
 
 ## 提取器
 按一下 **Tools -> BlendShare -> BlendShapes Extractor** 開啟型態鍵提取器。
+![blendshare_blendshapes_extractor](/blendshare_blendshapes_extractor.png)
 
 - Origin FBX
   - 原始 FBX 檔。
@@ -17,11 +18,11 @@ BlendShare 是一款 Unity 工具，專為需要分享型態鍵而不分發原�
 - Default Asset Name
  - 產生的 FBX 和網格的預設名稱。
 - Deformer ID
-  - FBX 中型態鍵的Deformer名稱。
-  - Deformer就像一組型態鍵。
-  - 如果使用者再次套用型態鍵，BlendShare 將刪除同名的舊Deformer。
+  - FBX 中型態鍵的 Deformer 名稱。
+  - Deformer 就像一組型態鍵。
+  - 如果使用者再次套用型態鍵，BlendShare 將刪除同名的舊 Deformer。
   - 因此，如果您有較新版本的型態鍵，建議保持 Deformer ID 相同。
-- 比較方法
+- Compare Method
   - **Name**
     - 按**名稱**進行比較。如果「Source FBX」中有新的型態鍵，BlendShare 會提取它們。
   - **Index**
@@ -38,7 +39,9 @@ BlendShare 是一款 Unity 工具，專為需要分享型態鍵而不分發原�
 - `Deselect to End`將關閉從目前位置到結束的型態鍵。
 - 按一下 `Select from Here`，然後右鍵單擊並選擇 `Select to Here` 以切換從目前位置到選定末端的型態鍵。
 
-## 型態鍵資料
+## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 型態鍵資料
+![Blendshapes Data](/blendshapes_data_inspector.png)
+
 按一下 `Apply blendshapes`(套用型態鍵) 將型態鍵直接新增到原始 FBX 檔案中。
 
 按一下 `Apply blendshapes as new FBX`(將型態鍵套用為新 FBX) 以產生原始 FBX 的副本並將型態鍵新增至該副本。

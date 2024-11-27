@@ -30,7 +30,7 @@ export default defineConfig({
         {
           text: 'BlendShare',
           items: [
-            { text: 'BlendShare', link: '/blendshare/' },
+            { text: 'Documents', link: '/blendshare/' },
           ]
         },
 
@@ -50,7 +50,7 @@ export default defineConfig({
         {
           text: 'BlendShare',
           items: [
-            { text: 'BlendShare', link: '/zh-hant/blendshare/' },
+            { text: '文檔', link: '/zh-hant/blendshare/' },
           ]
         },
       ],
@@ -69,7 +69,7 @@ export default defineConfig({
         {
           text: 'BlendShare',
           items: [
-            { text: 'BlendShare', link: '/zh-hans/blendshare/' },
+            { text: '文档', link: '/zh-hans/blendshare/' },
           ]
         },
       ],
@@ -85,6 +85,13 @@ export default defineConfig({
             { text: '量子化パラメータクリエーター', link: '/ja/face-tracking-addon/quantization-parameters-creator' },
           ]
         },
+        
+        {
+          text: 'BlendShare',
+          items: [
+            { text: 'ドキュメント', link: '/ja/blendshare/' },
+          ]
+        },
       ],
 
       '/ko/': [
@@ -96,6 +103,13 @@ export default defineConfig({
             { text: '문서', link: '/ko/face-tracking-addon/documents' },
             { text: 'Eye Tracking Setings', link: '/ko/face-tracking-addon/eye-tracking-settings' },
             { text: 'Q-Parameters Creator', link: '/ko/face-tracking-addon/quantization-parameters-creator' },
+          ]
+        },
+        
+        {
+          text: 'BlendShare',
+          items: [
+            { text: '문서', link: '/ko/blendshare/' },
           ]
         },
       ],

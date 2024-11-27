@@ -9,6 +9,7 @@ BlendShare 是一款 Unity 工具，专为需要分享型态键而不分发原�
 
 ## 提取器
 按一下 **Tools -> BlendShare -> BlendShapes Extractor** 开启型态键提取器。
+![blendshare_blendshapes_extractor](/blendshare_blendshapes_extractor.png)
 
 - Origin FBX
   - 原始 FBX 档。
@@ -21,7 +22,7 @@ BlendShare 是一款 Unity 工具，专为需要分享型态键而不分发原�
   - Deformer就像一组型态键。
   - 如果使用者再次套用型态键，BlendShare 将删除同名的旧Deformer。
   - 因此，如果您有较新版本的型态键，建议保持 Deformer ID 相同。
-- 比较方法
+- Compare Method
   - **Name**
     - 按**名称**进行比较。如果「Source FBX」中有新的型态键，BlendShare 会提取它们。
   - **Index**
@@ -38,7 +39,9 @@ BlendShare 是一款 Unity 工具，专为需要分享型态键而不分发原�
 - `Deselect to End`将关闭从目前位置到结束的型态键。
 - 按一下 `Select from Here`，然后右键单击并选择 `Select to Here` 以切换从目前位置到选定末端的型态键。
 
-## 型态键资料
+## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 型态键资料
+![Blendshapes Data](/blendshapes_data_inspector.png)
+
 按一下 `Apply blendshapes`(套用型态键) 将型态键直接新增到原始 FBX 档案中。
 
 按一下 `Apply blendshapes as new FBX`(将型态键套用为新 FBX) 以产生原始 FBX 的副本并将型态键新增至该副本。

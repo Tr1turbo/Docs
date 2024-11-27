@@ -10,6 +10,7 @@ These assets can be easily shared and applied to compatible FBX files.
 ## Extractor
 Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extractor.
 
+![blendshare_blendshapes_extractor](/blendshare_blendshapes_extractor.png)
 - Origin FBX
     - The original FBX file.
 - Source FBX
@@ -39,7 +40,9 @@ Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extra
 - Click `Select from Here`, then right-click and select `Select to Here` to toggle on blendshapes from the current position to the selected end.
 
 
-## Blendshapes Data
+## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Blendshapes Data
+![Blendshapes Data](/blendshapes_data_inspector.png)
+
 Click `Apply blendshapes` to add blendshapes directly to the original FBX file.
 
 Click `Apply blendshapes as new FBX` to generate a copy of original FBX and add blendshapes to the copy.
