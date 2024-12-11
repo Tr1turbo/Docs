@@ -1,6 +1,6 @@
 # <img src="/face-tracking-addon/shinra/shinra_head_icon.png" alt="Shinra" style="width: 48px; height: 48px; vertical-align: -4px; display: inline;"/> 森羅フェイストラッキングガイド
 
-インストール手順については、[インストールガイド](./installation-guide)をご参照ください。
+インストール手順については、[インストールガイド](../installation-guide)をご参照ください。
 
 ## リップピアスおよび舌ピアスのフェイストラッキング
 

@@ -1,7 +1,7 @@
 # <img src="/face-tracking-addon/shinra/shinra_head_icon.png" alt="Shinra" style="width: 48px; height: 48px; vertical-align: -4px; display: inline;"/> Shinra Face Tracking Guide
 
 
-For installation instructions, refer to the [Installation Guide](./installation-guide).
+For installation instructions, refer to the [Installation Guide](../installation-guide).
 
 
 ## Face Tracking for Lip and Tongue Piercings

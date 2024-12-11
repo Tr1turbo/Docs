@@ -1,6 +1,6 @@
 # <img src="/face-tracking-addon/shinra/shinra_head_icon.png" alt="Shinra" style="width: 48px; height: 48px; vertical-align: -4px; display: inline;"/> 신라 페이스 트래킹 가이드
 
-설치 절차에 대해서는 [설치 가이드](./installation-guide)를 참조하세요.
+설치 절차에 대해서는 [설치 가이드](../installation-guide)를 참조하세요.
 
 ## 립 피어싱 및 혀 피어싱 페이스 트래킹
 

@@ -1,6 +1,6 @@
 # <img src="/face-tracking-addon/shinra/shinra_head_icon.png" alt="Shinra" style="width: 48px; height: 48px; vertical-align: -4px; display: inline;"/> 森羅面部追蹤指南
 
-有關安裝說明，請參閱 [安裝指南](./installation-guide)。
+有關安裝說明，請參閱 [安裝指南](../installation-guide)。
 
 ## 唇環與舌環的臉部追蹤
 
