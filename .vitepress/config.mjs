@@ -24,6 +24,7 @@ export default defineConfig({
             { text: 'Documents', link: '/face-tracking-addon/documents' },
             { text: 'Eye Tracking Setings', link: '/face-tracking-addon/eye-tracking-settings' },
             { text: 'Q-Parameters Creator', link: '/face-tracking-addon/quantization-parameters-creator' },
+            { text: 'Avatars', link: '/face-tracking-addon/avatars' },
           ]
         },
 
@@ -45,6 +46,7 @@ export default defineConfig({
             { text: '面捕文檔', link: '/zh-hant/face-tracking-addon/documents' },
             { text: '眼動追蹤設定', link: '/zh-hant/face-tracking-addon/eye-tracking-settings' },
             { text: '量化參數創建器', link: '/zh-hant/face-tracking-addon/quantization-parameters-creator' },
+            { text: 'Avatars', link: '/zh-hant/face-tracking-addon/avatars' },
           ]
         },
         {
@@ -64,6 +66,7 @@ export default defineConfig({
             { text: '面捕文档', link: '/zh-hans/face-tracking-addon/documents' },
             { text: '眼动追踪设置', link: '/zh-hans/face-tracking-addon/eye-tracking-settings' },
             { text: '量化参数创建器', link: '/zh-hans/face-tracking-addon/quantization-parameters-creator' },
+            { text: 'Avatars', link: '/zh-hans/face-tracking-addon/avatars' },
           ]
         },
         {
@@ -83,6 +86,8 @@ export default defineConfig({
             { text: 'ドキュメント', link: '/ja/face-tracking-addon/documents' },
             { text: '眼球追跡設定', link: '/ja/face-tracking-addon/eye-tracking-settings' },
             { text: '量子化パラメータクリエーター', link: '/ja/face-tracking-addon/quantization-parameters-creator' },
+            { text: 'Avatars', link: '/ja/face-tracking-addon/avatars' },
+
           ]
         },
         
@@ -103,6 +108,7 @@ export default defineConfig({
             { text: '문서', link: '/ko/face-tracking-addon/documents' },
             { text: 'Eye Tracking Setings', link: '/ko/face-tracking-addon/eye-tracking-settings' },
             { text: 'Q-Parameters Creator', link: '/ko/face-tracking-addon/quantization-parameters-creator' },
+            { text: 'Avatars', link: '/ko/face-tracking-addon/avatars' },
           ]
         },
         
