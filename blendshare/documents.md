@@ -40,7 +40,7 @@ Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extra
 - Click `Select from Here`, then right-click and select `Select to Here` to toggle on blendshapes from the current position to the selected end.
 
 
-## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Blendshapes Data
+## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> BlendShapes Data Asset
 ![Blendshapes Data](/blendshapes_data_inspector.png)
 
 Click `Apply blendshapes` to add blendshapes directly to the original FBX file.

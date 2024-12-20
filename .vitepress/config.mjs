@@ -32,6 +32,7 @@ export default defineConfig({
           text: 'BlendShare',
           items: [
             { text: 'Documents', link: '/blendshare/' },
+            { text: 'BlendShapes Assets', link: '/blendshare/blendshapes-assets' },
           ]
         },
 
@@ -53,6 +54,7 @@ export default defineConfig({
           text: 'BlendShare',
           items: [
             { text: '文檔', link: '/zh-hant/blendshare/' },
+            { text: 'BlendShapes Assets', link: '/zh-hant/blendshare/blendshapes-assets' },
           ]
         },
       ],
@@ -73,6 +75,7 @@ export default defineConfig({
           text: 'BlendShare',
           items: [
             { text: '文档', link: '/zh-hans/blendshare/' },
+            { text: 'BlendShapes Assets', link: '/zh-hans/blendshare/blendshapes-assets' },
           ]
         },
       ],
@@ -95,6 +98,7 @@ export default defineConfig({
           text: 'BlendShare',
           items: [
             { text: 'ドキュメント', link: '/ja/blendshare/' },
+            { text: 'BlendShapes Assets', link: '/ja/blendshare/blendshapes-assets' },
           ]
         },
       ],
@@ -116,6 +120,7 @@ export default defineConfig({
           text: 'BlendShare',
           items: [
             { text: '문서', link: '/ko/blendshare/' },
+            { text: 'BlendShapes Assets', link: '/ko/blendshare/blendshapes-assets' },
           ]
         },
       ],
