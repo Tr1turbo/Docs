@@ -6,6 +6,14 @@ The asset does not contain original vertex properties; the blendshapes are extra
 
 Users can easily apply these blendshapes to compatible models.
 
+## Import [<img class="dark-only" src="/blendshare.png" alt="BlendShare" style="width: 128px; height: 32px; vertical-align: -6px; display: inline;"/><img class="light-only" src="/blendshare_light_mode.png" alt="BlendShare" style="width: 128px; height: 32px; vertical-align: -6px; display: inline;"/>](./documents)
+
+Before using the assets, ensure you have imported the BlendShare package. Check if the package creator has included the UnityPackage in the file. If it is not included, download it from one of the following sources:
+
+1. [Booth](https://triturbo.booth.pm/items/5901276)
+2. [GitHub](https://github.com/Tr1turbo/BlendShare/releases/latest)
+3. [Add to VCC](https://tr1turbo.github.io/BlendShare/)
+
 ## Using the <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blend Shapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Assets
 1. Locate the Assets
    
