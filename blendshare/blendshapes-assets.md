@@ -31,18 +31,18 @@ Before using the assets, ensure you have imported the BlendShare package. Check 
     - Click `Apply blendshapes` to add blendshapes directly to the original FBX file.
 
     - Click `Apply blendshapes as new FBX` to generate a copy of original FBX and add blendshapes to the copy.
-
-    Even if the Normals, UVs, and blendshapes of the original FBX are modified, you can still apply blendshapes to FBX.
-
+        ::: tip
+        Even if the Normals, UVs, and blendshapes of the original FBX are modified, you can still apply blendshapes to FBX.
+        :::
     - Click `Create Meshes` to generate a mesh asset with blendshapes added.
-    This is faster than generating an FBX file but has strict limits, as it does not allow any modification of the original FBX.
+    This is faster than generating an FBX file but has strict limits, as it does **not allow any modification** of the original FBX.
 
-4. Using Generated Meshes
+1. Using Generated Meshes
 
-    When using the `Create Meshes` option, replace the current mesh in the `SkinnedMeshRenderer` component with the newly generated mesh.
+    When using the `Apply blendshapes as new FBX` or `Create Meshes` option, replace the current mesh in the `SkinnedMeshRenderer` component with the newly generated mesh.
 
 
-## Mesh Generation Fail
+## Broken BlendShapes
 If the mesh is not visible after blendshapes applied, check if you used a modified FBX, which might have a different bone count from the original model.
 
 If you notice broken blendshapes after installation, use an unmodified FBX to generate the mesh.
@@ -53,8 +53,8 @@ If you notice broken blendshapes after installation, use an unmodified FBX to ge
 - Do not delete vertices in the relevant mesh, and avoid adding vertices. This can cause vertex order inconsistencies.
 - If blendshapes appear wrong direction, use Blender’s native exporter.
 - Match FBX export Scaling settings with the original model and consider `Apply Transform` options carefully.
-  - If the file reads **1m (File) to 1m (Unity)**, select `FBX Unit Scale` in Blender.
-  - If the file reads **1cm (File) to 0.01m (Unity)**, use `All Local`.
+  - If the Unity FBX importing settings reads **1m (File) to 1m (Unity)**, select `FBX Unit Scale` in Blender.
+  - If the Unity FBX importing settings reads **1cm (File) to 0.01m (Unity)**, use `All Local`.
 
   - Avoid selecting `Apply Transform`; if blendshapes are wrong direction, try selecting `Apply Transform` as a last resort.
     ![Blender Export](/blender_fbx_export_transform.png)
@@ -64,5 +64,5 @@ If you notice broken blendshapes after installation, use an unmodified FBX to ge
 - Add or edit blend shapes
 - Edit UVs
 - Edit normals
-- Freely modify meshes unrelated to face tracking
+- Freely modify unrelated meshes
 :::
