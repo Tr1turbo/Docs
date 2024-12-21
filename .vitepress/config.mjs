@@ -98,7 +98,7 @@ export default defineConfig({
           text: 'BlendShare',
           items: [
             { text: 'ドキュメント', link: '/ja/blendshare/' },
-            { text: 'BlendShapes Assets', link: '/ja/blendshare/blendshapes-assets' },
+            { text: 'シェイプキーデータアセット', link: '/ja/blendshare/blendshapes-assets' },
           ]
         },
       ],
