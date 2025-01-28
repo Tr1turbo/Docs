@@ -148,3 +148,25 @@ html.dark .light-only {
 html:not(.dark) .dark-only {
   display: none !important;
 }
+
+:root {
+  --vp-nav-height: 64px;
+  --vp-nav-bg-color: color-mix(in srgb, var(--vp-c-bg) 70%, transparent 30%);
+  --vp-nav-screen-bg-color: var(--vp-nav-bg-color);
+  --vp-nav-logo-height: 24px;
+  --vp-nav-backdrop-filter: blur(10px) saturate(150%);;
+}
+
+:root {
+  --vp-local-nav-bg-color: var(--vp-nav-bg-color);
+}
+
+.VPNav {
+  backdrop-filter: var(--vp-nav-backdrop-filter);
+  -webkit-backdrop-filter: var(--vp-nav-backdrop-filter);
+}
+
+.VPLocalNav {
+  backdrop-filter: var(--vp-nav-backdrop-filter);
+  -webkit-backdrop-filter: var(--vp-nav-backdrop-filter);
+}
