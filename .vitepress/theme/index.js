@@ -1,6 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import redirectToLocale from './locales';
 import './style.css'
 
 /** @type {import('vitepress').Theme} */
@@ -14,8 +15,9 @@ export default {
     
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
-
+    if (typeof window !== 'undefined') {
+      redirectToLocale();
+    }
   }
 
 }
