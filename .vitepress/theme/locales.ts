@@ -13,7 +13,9 @@ function redirectToLocale() {
     const langPrefix = userLang.toLowerCase().startsWith('zh')
         ? userLang.toLowerCase().includes('cn')
             ? 'zh-hans'
-            : 'zh-hant'
+            : userLang.toLowerCase().includes('hans')
+                ? userLang
+                : 'zh-hant'
         : userLang.split('-')[0];
 
     const matchedLocale = locales[langPrefix] || locales.root;
@@ -46,7 +48,7 @@ function redirectToLocale() {
     window.location.replace(newPath);
 }
 
-export function getCookie(name) {
+function getCookie(name) {
     const cookies = document.cookie.split(';');
     for (let cookie of cookies) {
         const [cookieName, cookieValue] = cookie.trim().split('=');
@@ -55,13 +57,6 @@ export function getCookie(name) {
         }
     }
     return null;
-}
-
-export function setCookie(name, value, daysToExpire) {
-    const date = new Date();
-    date.setTime(date.getTime() + daysToExpire * 24 * 60 * 60 * 1000);
-    const expires = `expires=${date.toUTCString()}`;
-    document.cookie = `${name}=${encodeURIComponent(value)};${expires};path=/`;
 }
 
 export default redirectToLocale;
