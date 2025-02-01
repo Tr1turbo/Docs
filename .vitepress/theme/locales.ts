@@ -7,12 +7,15 @@ function redirectToLocale() {
         ko: '/Docs/ko/'
     };
 
-    const userLang = navigator.language || navigator.userLanguage;
+    const savedLang = getCookie('savedLang');
+    const userLang = savedLang || navigator.language;
     
     const langPrefix = userLang.toLowerCase().startsWith('zh')
         ? userLang.toLowerCase().includes('cn')
             ? 'zh-hans'
-            : 'zh-hant'
+            : userLang.toLowerCase().includes('hans')
+                ? userLang
+                : 'zh-hant'
         : userLang.split('-')[0];
 
     const matchedLocale = locales[langPrefix] || locales.root;
@@ -25,7 +28,7 @@ function redirectToLocale() {
     const currentPath = window.location.pathname;
     console.log('Current path:', currentPath);
 
-    if (currentPath.startsWith(matchedLocale)) {
+    if (currentPath.startsWith(matchedLocale) || currentPath.startsWith(matchedLocale.slice(0, -1))) {
         console.log('Already at the correct path, no redirection needed.');
         return;
     }
@@ -43,6 +46,17 @@ function redirectToLocale() {
 
     console.log('Redirecting to:', newPath);
     window.location.replace(newPath);
+}
+
+function getCookie(name) {
+    const cookies = document.cookie.split(';');
+    for (let cookie of cookies) {
+        const [cookieName, cookieValue] = cookie.trim().split('=');
+        if (cookieName === name) {
+            return decodeURIComponent(cookieValue);
+        }
+    }
+    return null;
 }
 
 export default redirectToLocale;
