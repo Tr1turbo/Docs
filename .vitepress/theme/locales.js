@@ -25,7 +25,7 @@ function redirectToLocale() {
     const currentPath = window.location.pathname;
     console.log('Current path:', currentPath);
 
-    if (currentPath.startsWith(matchedLocale)) {
+    if (currentPath.startsWith(matchedLocale) || currentPath.startsWith(matchedLocale.slice(0, -1))) {
         console.log('Already at the correct path, no redirection needed.');
         return;
     }
