@@ -17,6 +17,9 @@ Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extra
     - FBX file with added blendshapes.
 - Default Asset Name
     - The default name for generated FBX and mesh.
+- Weld BlendShape Vertices
+  - Enable this option if the FBX import setting "Weld Vertices" is toggled on.
+  - This will merge the BlendShape vertex deltas to ensure the vertex count remains consistent, preventing discrepancies when "Weld Vertices" is applied. This process ensures that the Unity mesh generated maintains a uniform vertex count, avoiding any unintended differences in vertex structure.
 - Deformer ID
     - The deformer name of your blendshapes in FBX.
     - A deformer is like a group of blendshapes.
@@ -41,6 +44,16 @@ Click **Tools -> BlendShare -> BlendShapes Extractor** to open Blendshapes extra
 
 
 ## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> BlendShapes Data Asset
+
+### What information extrcted from fbx is stored inside the <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> asset?
+- Blendshape Vertex Offsets:\
+  Each array storing vertex offsets for a blendshape in the original vertex order.  
+- Reference to Original FBX Object & Mesh:\
+  Stores only the GUID, not the actual asset.  
+- Unity Vertex Count & Hash:\
+  Calculated from the Unity mesh to check consistency.
+
+### Usage
 ![Blendshapes Data](/blendshapes_data_inspector.png)
 
 Click `Apply blendshapes` to add blendshapes directly to the original FBX file.
@@ -51,3 +64,4 @@ Even if the Normals, UVs, and blendshapes of the original FBX are modified, you 
 
 Click `Create Meshes` to generate a mesh asset with blendshapes added.
 This is faster than generating an FBX file but has strict limits, as it does not allow any modification of the original FBX.
+

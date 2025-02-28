@@ -40,6 +40,14 @@ BlendShare 是一款 Unity 工具，專為需要分享型態鍵而不分發原�
 - 按一下 `Select from Here`，然後右鍵單擊並選擇 `Select to Here` 以切換從目前位置到選定末端的型態鍵。
 
 ## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 型態鍵資料
+### 從FBX提取並儲存到 <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 資產中的信息
+- 型態鍵的頂點偏移：\
+ 依原始頂點順序儲存每個型態鍵的頂點偏移量。
+- 原始FBX物件和網格的引用：\
+ 僅儲存GUID，不包含實際資產。
+- Unity頂點數與雜湊值：\
+ 由Unity網格計算，以確保一致性。
+
 ![Blendshapes Data](/blendshapes_data_inspector.png)
 
 按一下 `Apply blendshapes`(套用型態鍵) 將型態鍵直接新增到原始 FBX 檔案中。

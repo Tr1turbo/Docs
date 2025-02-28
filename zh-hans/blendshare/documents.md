@@ -40,6 +40,16 @@ BlendShare 是一款 Unity 工具，专为需要分享型态键而不分发原�
 - 按一下 `Select from Here`，然后右键单击并选择 `Select to Here` 以切换从目前位置到选定末端的型态键。
 
 ## <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 型态键资料
+
+### 从FBX提取并存储到 <img class="dark-only" src="/blendshare_blendshapes_asset.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/><img class="light-only" src="/blendshare_blendshapes_asset_light_mode.png" alt="Blendshapes Data" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 资产中的信息
+- 型态键的顶点偏移：\
+  按原始顶点顺序存储每个型态键的顶点偏移量。
+- 原始FBX对象和网格的引用：\
+  仅存储GUID，不包含实际资产。
+- Unity顶点数和哈希值：\
+  由Unity网格计算，以确保一致性。
+
+### 使用方法
 ![Blendshapes Data](/blendshapes_data_inspector.png)
 
 按一下 `Apply blendshapes`(套用型态键) 将型态键直接新增到原始 FBX 档案中。
