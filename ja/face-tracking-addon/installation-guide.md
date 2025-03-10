@@ -3,8 +3,12 @@
 - [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.19)
 - アバター本体
 - **BlendShare**：私が開発したシェイプキーの抽出と配布ツール。\
-*ファイルに含まれています*
 ![blendshare](/blendshare_unitypackage.png)
+
+- 新規: **Triturbo Face Tracking Framework**\
+  ![chocolat booth download](/chocolat_booth_download.png)
+  BOOTHからダウンロードしてください。（一部の古いアドオンはこのアップデートを必要としない場合があります）
+  BOOTHのダウンロードページに表示されている場合は、必ずダウンロードしてください。
 
 ## 顔追跡アドオンのインポート
 - **コンテンツのダウンロード**\

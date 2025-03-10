@@ -7,6 +7,11 @@
 *已包含在文件中*
 ![blendshare](/blendshare_unitypackage.png)
 
+- 新增: **Triturbo Face Tracking Framework**\
+    ![chocolat booth download](/chocolat_booth_download.png)
+    請從 BOOTH 下載。 （部分舊版插件可能不需要此更新）
+    如果它出現在 BOOTH 下載頁面上，請務必下載。
+
 ## 導入面部追蹤套件
 - 從 [Booth 商店](https://triturbo.booth.pm/) 中下載內容。
 - 將 `.unitypackage` 導入到你的項目中。

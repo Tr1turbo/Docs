@@ -4,8 +4,12 @@
 - Original Avatar
 - **BlendShare**:\
   a blendshapes extract and distribute tool I developed.\
-*Included in file*
 ![blendshare](/blendshare_unitypackage.png)
+- New: **Triturbo Face Tracking Framework**\
+  ![chocolat booth download](/chocolat_booth_download.png)
+  Please download it from BOOTH. (Some older addons may not require this update.)
+  If it appears on the BOOTH download page, make sure to download it.
+
 ## Import the Face Tracking Addon
 - Download contents from the [Booth store](https://triturbo.booth.pm/)
 - Import `.unitypackage` to your project

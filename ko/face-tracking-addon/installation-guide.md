@@ -6,6 +6,11 @@
 *페이셜 파일에 포함됨*
 <img src="/blendshare_unitypackage.png" alt="blendshare" style="width: 256px; height: 32px; vertical-align: middle;"/>
 
+- 신규: **Triturbo Face Tracking Framework**\
+ ![chocolat booth download](/chocolat_booth_download.png)
+  BOOTH에서 다운로드해 주세요. (일부 이전 애드온은 이 업데이트가 필요하지 않을 수 있습니다)
+  BOOTH 다운로드 페이지에 표시되면 꼭 다운로드해 주세요.
+
 ## Face Tracking Addon 임포트
 - **콘텐츠 다운로드**\
 [Booth](https://triturbo.booth.pm/) 샵에서 패키지 다운로드.
