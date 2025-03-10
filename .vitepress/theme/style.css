@@ -166,6 +166,12 @@ html:not(.dark) .dark-only {
   -webkit-backdrop-filter: var(--vp-nav-backdrop-filter);
 }
 
+@media (max-width: 768px) {
+  .VPNav {
+    backdrop-filter: none;
+  }
+}
+
 .VPLocalNav {
   backdrop-filter: var(--vp-nav-backdrop-filter);
   -webkit-backdrop-filter: var(--vp-nav-backdrop-filter);
