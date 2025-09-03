@@ -8,14 +8,23 @@ You can adjust the following parameters:
 ![Eye Tracking Settings](/eye_tracking_settings.png)
 
 ## Parameters
+### **Eye Weight**
+* **Description**: Controls the intensity of the **EyeClosed** blendshape used for eye tracking.
+* **Behavior**:
 
-**Eye Weight** represents the intensity of the `EyeClosed` blendshape for eye tracking. Reduce the value if you have customized eyes that are smaller than the default.
+  * `0`: No EyeClosed blendshape applied.
+  * `1`: Full EyeClosed blendshape applied.
+* **Usage**: Reduce this value if your avatar has smaller or customized eyes.
 
-**Reset Weight** represents the target intensity of setting your customized eye shape to default when your eyes are fully closed.
-When the eye is open, the intensity is 0, and it will gradually blend to the target value you set when the eyes are closed.
+### **Reset Weight**
+* **Description**: Defines the target intensity for resetting your customized eye shape back to default when the eyes are fully closed.
+* **Behavior**:
 
-These settings help in fine-tuning the eye tracking experience, ensuring it works seamlessly with different eye shapes and sizes.
+  * `0`: No reset applied when the eyes are open.
+  * `1`: Full reset applied when the eyes are fully closed.
+  * The reset blend smoothly from open to closed.
 
+These parameters allow fine-tuning of the eye tracking system, ensuring smooth and natural behavior across avatars with different eye shapes and proportions.
 
 ## Preview Button
 The `Preview` button allows users to see a preview of the adjustments they make. Clicking the button will enter preview mode, and adjusting the parameter slider will also activate preview mode. To exit preview mode and save the results, users should click the button again. If the component loses focus, the preview mode will automatically exit and save the changes, but it is recommended to click the button to ensure everything is saved properly.

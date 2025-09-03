@@ -98,24 +98,13 @@ VIVE 使用 SRanipal 参数相较 Quest 与 Pico 设备在眼睛方面少了眉�
 
 > 自由调整即可，系统会自动替换成左右分离型态键。若遇到问题，请在调整型态键一开始就使用左右分离的型态键。
 
-## 调整下巴掉落幅度
-驱动嘴巴开口，下巴掉落的型态键为 JawOpen。
+## 下颌张开强度调整
+可以通过 [<img class="dark-only" src="/mouth_tracking_settings_icon.png" alt="Mouth Tracking Settings" style="width: 16px; height: 16px; vertical-align: -2px; display: inline;"/> Mouth Tracking Settings](./mouth-tracking-settings) 组件轻松自定义下颌张开强度。
+该组件位于 Avatar GameObject 的 **`Face Tracking/Mouth Tracking`** 下。
 
-其中，JawOpen又被分为 2 种型态键以方便微调。
-- `JawDrop*` 下巴移动
-- `MouthOpen*` 张嘴
-
-![JawDrop](/jawdrop_mouthopen_compare.jpg)
-预设为上颚不动，下巴掉落。您可以更改动画来调整下巴掉落的幅度。
-
-请在 `Animations/` 下找到 `JawOpen` 动画，依照喜好调整 `JawDrop*` 的值。
-![](/jaw_open.png)
-:::info
-您可以透过更改 `JawDrop*` 调整张嘴的效果。\
-当 `JawDrop*` 为 0 时，下巴保持不动，嘴巴打开且上颚向上移动。
-
-当 `JawDrop*` 为 100 时，下巴向下移动，嘴巴打开且上颚保持不动。
-:::
+<video width="500" height="500" autoplay muted loop playsinline>  
+  <source src="/mouth_tracking_settings_jaw_strength_slider.mp4" />  
+</video>
 
 ## 调整参数解析度与缩放
 使用 Inspector 查看面捕游戏物件时，您可以看到 [Quantization Parameters Creator](./quantization-parameters-creator) 组件，如以下画面：

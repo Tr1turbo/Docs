@@ -22,7 +22,8 @@ export default defineConfig({
             { text: 'Instalation Guide', link: '/face-tracking-addon/installation-guide' },
             { text: 'How to use BlendShare', link: '/face-tracking-addon/blendshare' },
             { text: 'Documents', link: '/face-tracking-addon/documents' },
-            { text: 'Eye Tracking Setings', link: '/face-tracking-addon/eye-tracking-settings' },
+            { text: 'Eye Tracking Settings', link: '/face-tracking-addon/eye-tracking-settings' },
+            { text: 'Mouth Tracking Settings', link: '/face-tracking-addon/mouth-tracking-settings' },
             { text: 'Q-Parameters Creator', link: '/face-tracking-addon/quantization-parameters-creator' },
             { text: 'Avatars', link: '/face-tracking-addon/avatars' },
           ]
@@ -46,6 +47,7 @@ export default defineConfig({
             { text: '如何使用 BlendShare', link: '/zh-hant/face-tracking-addon/blendshare' },
             { text: '面捕文檔', link: '/zh-hant/face-tracking-addon/documents' },
             { text: '眼動追蹤設定', link: '/zh-hant/face-tracking-addon/eye-tracking-settings' },
+            { text: '嘴部追蹤設定', link: '/zh-hant/face-tracking-addon/mouth-tracking-settings' },
             { text: '量化參數創建器', link: '/zh-hant/face-tracking-addon/quantization-parameters-creator' },
             { text: 'Avatars', link: '/zh-hant/face-tracking-addon/avatars' },
           ]
@@ -67,6 +69,7 @@ export default defineConfig({
             { text: '如何使用 BlendShare', link: '/zh-hans/face-tracking-addon/blendshare' },
             { text: '面捕文档', link: '/zh-hans/face-tracking-addon/documents' },
             { text: '眼动追踪设置', link: '/zh-hans/face-tracking-addon/eye-tracking-settings' },
+            { text: '嘴部追蹤设置', link: '/zh-hans/face-tracking-addon/mouth-tracking-settings' },
             { text: '量化参数创建器', link: '/zh-hans/face-tracking-addon/quantization-parameters-creator' },
             { text: 'Avatars', link: '/zh-hans/face-tracking-addon/avatars' },
           ]
@@ -88,6 +91,7 @@ export default defineConfig({
             { text: 'BlendShareの使用方法', link: '/ja/face-tracking-addon/blendshare' },
             { text: 'ドキュメント', link: '/ja/face-tracking-addon/documents' },
             { text: '眼球追跡設定', link: '/ja/face-tracking-addon/eye-tracking-settings' },
+            { text: '口追跡設定', link: '/ja/face-tracking-addon/mouth-tracking-settings' },
             { text: '量子化パラメータクリエーター', link: '/ja/face-tracking-addon/quantization-parameters-creator' },
             { text: 'Avatars', link: '/ja/face-tracking-addon/avatars' },
 
@@ -111,6 +115,7 @@ export default defineConfig({
             { text: 'BlendShare 사용 방법', link: '/ko/face-tracking-addon/blendshare' },
             { text: '문서', link: '/ko/face-tracking-addon/documents' },
             { text: 'Eye Tracking Setings', link: '/ko/face-tracking-addon/eye-tracking-settings' },
+            { text: 'Mouth Tracking Setings', link: '/ko/face-tracking-addon/mouth-tracking-settings' },
             { text: 'Q-Parameters Creator', link: '/ko/face-tracking-addon/quantization-parameters-creator' },
             { text: 'Avatars', link: '/ko/face-tracking-addon/avatars' },
           ]

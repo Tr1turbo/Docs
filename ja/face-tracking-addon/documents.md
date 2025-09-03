@@ -89,26 +89,13 @@ HDとSDは**解像度**の違いを指し、HDは高解像度ですが、同期�
 
 > 希望どおりに調整してください。システムが自動的に左右のシェイプキーに切り替えます。問題が発生した場合は、結合されたシェイプキーではなく、分離されたシェイプキーを使用してアバターをカスタマイズしてください。
 
-## 顎の開き具合の調整
-口を開く動作や顎の開きを制御するシェイプキーは `JawOpen` です。
+## 顎の開き強度の調整
+顎の開き強度は、[<img class="dark-only" src="/mouth_tracking_settings_icon.png" alt="Mouth Tracking Settings" style="width: 16px; height: 16px; vertical-align: -2px; display: inline;"/> Mouth Tracking Settings](./mouth-tracking-settings) コンポーネントを使って簡単に調整できます。
+このコンポーネントは、アバターの GameObject 内の **`Face Tracking/Mouth Tracking`** にあります。
 
-`JawOpen` は微調整を容易にするために二つのシェイプキーに分かれています：
-
-- `JawDrop*` 顎の動き用
-- `MouthOpen*` 口の開き用
-
-![JawDrop](/jawdrop_mouthopen_compare.jpg)
-
-デフォルトでは、上顎は固定され、顎が下がります。
-
-`Animations/` 内の `JawOpen` アニメーションの `JawDrop*` の値を調整することで、顎の開き具合を変更できます。
-![](/jaw_open.png)
-
-:::info
-`JawDrop*` の調整により、口の開き効果をカスタマイズできます。`JawDrop*` が0の場合、顎は動かず、口が開くと上顎が上に動きます。
-
-`JawDrop*` が100の場合、顎が下に動き、上顎は固定されます。
-:::
+<video width="500" height="500" autoplay muted loop playsinline>  
+  <source src="/mouth_tracking_settings_jaw_strength_slider.mp4" />  
+</video>  
 
 ## パラメータの解像度とスケールの調整
 フェイストラッキングオブジェクトをインスペクターで見ると、以下のように [Quantization Parameters Creator](./quantization-parameters-creator) コンポーネントが表示されます：

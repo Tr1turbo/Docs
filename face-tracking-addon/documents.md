@@ -73,9 +73,12 @@ If you notice broken blendshapes after installation, use an unmodified FBX to ge
 ## Adjusting Eye Shape Resetting
 This face tracking system blends some blend shapes to `0` when the eyes close to prevent clipping. This process is smooth and seamless. When eyes are open, the face shape follows user-defined blend shapes, but when eyes close, the system “resets” to `0`.
 
-The reset intensity can be easily customized using the [Eye Tracking Settings](./eye-tracking-settings) component.\
+The reset intensity can be easily customized using the [<img class="dark-only" src="/eye_tracking_settings_icon.png" alt="Eye Tracking Settings" style="width: 16px; height: 16px; vertical-align: -2px; display: inline;"/> <img class="light-only" src="/eye_tracking_settings_icon_light_mode.png" alt="Eye Tracking Settings" style="width: 16px; height: 16px; vertical-align: -2px; display: inline;"/> Eye Tracking Settings](./eye-tracking-settings) component.
+This component can be found under `Face Tracking/Eye Tracking` in your Avatar GameObject.
+
 **Intensity 1** means the blend shapes fully reset to 0 when eyes close, while **Intensity 0** means no reset occurs.
 
+---
 ### How to Adjust Blendshapes for Custom Face Shapes
 You may customize the face shape of your Avatar in several ways. For proper functioning with the face-tracking system, refer to the methods below.
 
@@ -90,25 +93,13 @@ It automatically switches to the left and right versions of each blendshape, so 
 > Adjust as desired; the system will automatically switch to the left-right separated blend shapes. If issues arise, using the separated blendshapes to customize the avatar instead of combined blendshapes.
 
 ## Adjusting Jaw Drop Intensity
-The blend shape that controls mouth opening and jaw drop is `JawOpen`.
+The jaw drop intensity can be easily customized using the [<img class="dark-only" src="/mouth_tracking_settings_icon.png" alt="Mouth Tracking Settings" style="width: 16px; height: 16px; vertical-align: -2px; display: inline;"/> Mouth Tracking Settings](./mouth-tracking-settings) component.
+This component can be found under `Face Tracking/Mouth Tracking` in your Avatar GameObject.
 
-`JawOpen` is divided into two blend shapes to facilitate fine-tuning:
 
-- `JawDrop*` for jaw movement
-- `MouthOpen*` for mouth opening
-
-![JawDrop](/jawdrop_mouthopen_compare.jpg)
-
-By default, the upper jaw remains fixed while the jaw drops.
-
-Adjust the `JawDrop*` values in the `JawOpen` animation under `Animations/` to modify the jaw drop effect.
-![](/jaw_open.png)
-
-:::info
-Adjusting `JawDrop*` allows you to customize the mouth-opening effect. When `JawDrop*` is 0, the jaw remains still, and the upper jaw moves upward as the mouth opens.
-
-When `JawDrop*` is 100, the jaw moves downward, and the upper jaw remains fixed.
-:::
+<video width="500" height="500" autoplay muted loop playsinline>
+  <source src="/mouth_tracking_settings_jaw_strength_slider.mp4" />
+</video>
 
 ## Adjusting Parameter Resolution and Scaling
 When viewing the face tracking object in the Inspector, you’ll see the [Quantization Parameters Creator](./quantization-parameters-creator) component displayed as shown below:
