@@ -5,6 +5,10 @@ export default defineConfig({
   title: "Triturbo",
   base: "/Docs/",
   description: "Documents and Tutorials",
+  head: [
+    ["script", { async: "true", src: "https://www.googletagmanager.com/gtag/js?id=G-X1V8006L19"}],
+    ["script", {}, "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-X1V8006L19');"]
+  ],
   themeConfig: {
     logo:'/triturbo_logo.png',
     // https://vitepress.dev/reference/default-theme-config
