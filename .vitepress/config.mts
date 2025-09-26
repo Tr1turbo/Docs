@@ -40,6 +40,13 @@ export default defineConfig({
             { text: 'BlendShapes Assets', link: '/blendshare/blendshapes-assets' },
           ]
         },
+        {
+          text: 'Dynamic Gesture',
+          items: [
+            { text: 'Guide', link: '/dynamic-gesture/installation-guid' },
+            { text: 'Dynamic Gesture Asset', link: '/dynamic-gesture/dynamic-gesture-asset' },
+          ]
+        },
 
       ],
 
@@ -63,6 +70,13 @@ export default defineConfig({
             { text: 'BlendShapes Assets', link: '/zh-hant/blendshare/blendshapes-assets' },
           ]
         },
+        {
+          text: 'Dynamic Gesture',
+          items: [
+            { text: '安裝指南', link: '/zh-hant/dynamic-gesture/installation-guid' },
+            { text: 'Dynamic Gesture Asset', link: '/zh-hant/dynamic-gesture/dynamic-gesture-asset' },
+          ]
+        },
       ],
 
       '/zh-hans/': [
@@ -83,6 +97,13 @@ export default defineConfig({
           items: [
             { text: '文档', link: '/zh-hans/blendshare/' },
             { text: 'BlendShapes Assets', link: '/zh-hans/blendshare/blendshapes-assets' },
+          ]
+        },
+        {
+          text: 'Dynamic Gesture',
+          items: [
+            { text: '安装指南', link: '/zh-hans/dynamic-gesture/installation-guid' },
+            { text: 'Dynamic Gesture Asset', link: '/zh-hans/dynamic-gesture/dynamic-gesture-asset' },
           ]
         },
       ],
@@ -109,6 +130,13 @@ export default defineConfig({
             { text: 'シェイプキーデータアセット', link: '/ja/blendshare/blendshapes-assets' },
           ]
         },
+        {
+          text: 'Dynamic Gesture',
+          items: [
+            { text: 'ガイド', link: '/ja/dynamic-gesture/installation-guid' },
+            { text: 'Dynamic Gesture Asset', link: '/ja/dynamic-gesture/dynamic-gesture-asset' },
+          ]
+        },
       ],
 
       '/ko/': [
@@ -130,6 +158,13 @@ export default defineConfig({
           items: [
             { text: '문서', link: '/ko/blendshare/' },
             { text: 'BlendShapes Assets', link: '/ko/blendshare/blendshapes-assets' },
+          ]
+        },
+        {
+          text: 'Dynamic Gesture',
+          items: [
+            { text: '가이드', link: '/ko/dynamic-gesture/installation-guid' },
+            { text: 'Dynamic Gesture Asset', link: '/ko/dynamic-gesture/dynamic-gesture-asset' },
           ]
         },
       ],
@@ -178,7 +213,7 @@ export default defineConfig({
     },
   
   },
-    
+  
 })
 
 
