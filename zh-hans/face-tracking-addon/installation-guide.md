@@ -1,7 +1,7 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 面捕插件安装指南
 
 ## 导入依赖资产和包
-- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.9.0)
 - Avatar 本体
 - **BlendShare**：一个我开发的型态键提取和分发工具。\
 *已包含在文件中*
@@ -73,3 +73,5 @@ VIVE 使用 SRanipal 参数相较 Quest 与 Pico 设备在眼睛方面少了眉�
 等上述设备不支持瞳孔直径侦测，另外也不支持EyeWide（睁大眼睛）, EyeSquint（挤压眼皮）。\
 而在嘴部捕捉部分各个VIVE设备基本表现一致。
 :::
+
+<!--@include: ../contact-us.md-->

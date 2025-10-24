@@ -1,6 +1,6 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 顔追跡アドオンのインストールガイド
 ## 依存するアセットとパッケージのインポート
-- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.9.0)
 - アバター本体
 - **BlendShare**：私が開発したシェイプキーの抽出と配布ツール。\
 ![blendshare](/blendshare_unitypackage.png)
@@ -69,3 +69,5 @@ HDとSDは**解像度**の違いを指し、HDはより高解像度で、より�
 
 上記のデバイスは瞳孔の直径検出をサポートしておらず、また`EyeWide`（目を大きく開ける）や`EyeSquint`（目を細める）もサポートしていません。口のキャプチャに関しては、各VIVEデバイスは基本的に同じパフォーマンスを示します。
 :::
+
+<!--@include: ../contact-us.md-->

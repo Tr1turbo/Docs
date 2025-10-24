@@ -1,6 +1,6 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> Face Tracking Addon Installation Guide
 ## Import dependent assets & packages
-- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.9.0)
 - Original Avatar
 - **BlendShare**:\
   a blendshapes extract and distribute tool I developed.\
@@ -68,3 +68,6 @@ We use parameter quantization techniques to reduce the bit size needed for float
 
 None of the above devices support pupil diameter detection, nor do they support `EyeWide` and `EyeSquint`. In terms of mouth capture, all VIVE devices perform similarly.
 :::
+
+
+<!--@include: @contact-us.md-->

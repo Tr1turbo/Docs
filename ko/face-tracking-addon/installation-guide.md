@@ -1,6 +1,6 @@
 # <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 페이셜트레킹 애드온 설치 가이드
 ## 에셋 및 패키지 임포트하기
-- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) 모듈러아바타 (≥1.19)
+- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) 모듈러아바타 (≥1.9.0)
 - 오리지널 아바타
 - **BlendShare**：제작자가 개발한 블렌드쉐이프 추출 및 배포도구입니다.\
 *페이셜 파일에 포함됨*
@@ -73,3 +73,5 @@ HD와 SD는 **해상도** 차이를 나타내며, HD는 더 높은 해상도를 
 
 위의 장비들은 동공 지름 감지를 지원하지 않으며, `EyeWide`(눈을 크게 뜨는 것)와 `EyeSquint`(눈을 찡그리는 것)도 지원하지 않습니다. 입 부분 감지에서는 모든 VIVE 장비가 기본적으로 동일한 성능을 보입니다.
 :::
+
+<!--@include: ../contact-us.md-->
