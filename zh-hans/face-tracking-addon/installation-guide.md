@@ -1,77 +1,161 @@
-# <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 面捕插件安装指南
+# <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 面部追踪插件安装指南
 
-## 导入依赖资产和包
-- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) Modular Avatar (≥1.9.0)
-- Avatar 本体
-- **BlendShare**：一个我开发的型态键提取和分发工具。\
-*已包含在文件中*
-![blendshare](/blendshare_unitypackage.png)
+## 快速检查清单
+<div class="ft-grid">
+  <div class="ft-card">
+    <h3>1) 下载</h3>
+    <p>从 BOOTH 下载 2 个 ZIP 文件。</p>
+  </div>
+  <div class="ft-card">
+    <h3>2) 安装依赖包</h3>
+    <p>安装 Avatar、Modular Avatar、BlendShare、Framework。</p>
+  </div>
+  <div class="ft-card">
+    <h3>3) 导入插件</h3>
+    <p>导入对应头像的 face tracking 包。</p>
+  </div>
+  <div class="ft-card">
+    <h3>4) 安装到头像</h3>
+    <p>将 face tracking addon 应用到头像。</p>
+  </div>
+</div>
 
+## Step 1: 必要下载文件（BOOTH）
 
-- 新增: **Triturbo Face Tracking Framework**\
-   ![chocolat booth download](/chocolat_booth_download.png)
-    请从 BOOTH 下载。（部分旧版插件可能不需要此更新）
-    如果它出现在 BOOTH 下载页面上，请务必下载。
+请从 [Booth 商店](https://triturbo.booth.pm/) 下载。
 
-## 导入面部追踪插件
-- 从 [Booth 商店](https://triturbo.booth.pm/) 中下载内容。
-- 将 `.unitypackage` 导入到你的项目中。
+![chocolat booth download](/chocolat_booth_download.png)
 
-导入后将出现一个新菜单 `TriturboFT`。
-![triturbo_ft](/triturbo_ft.png)
-
-点击菜单中的按钮以打开窗口。
-![ft_window](./assets/ft_window.png)
-
-将你的 Avatar 游戏物体或预製件拖入 `Avatar` 框中。
-![ft_window](./assets/ft_window_avatar.png)
-
-最后，点击 `在原 Avatar 应用面部捕捉插件`。
+- `FaceTracking_v1_x_x_for_avatar.zip`\
+包含 Face Tracking Addon 的 `.unitypackage`。
+- `TriturboFaceTrackingFramework-v1_x_x.zip`\
+包含 **Triturbo Face Tracking Framework** 的 `.unitypackage` 和 **BlendShare** 的 `.unitypackage`。
 
 :::info
-💡 如果你不想修改原 Avatar 游戏物体，可以点击 `以新 Avatar 应用面部捕捉插件`。
+两个 ZIP 文件都必须下载。
 :::
-一个带有面部追踪插件的 Avatar 将出现在 Hierarchy 中。
+
+## Step 2: 安装必要包
+
+1. 原始 Avatar
+2. [<img src="/modular_avatar_icon.png" alt="Modular Avatar" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/> Modular Avatar](https://modular-avatar.nadena.dev/) (`>= 1.9.0`)
+3. **BlendShare**
+4. **Triturbo Face Tracking Framework**
+
+:::info 包安装方式
+**BlendShare**
+- 打开（或解压）`TriturboFaceTrackingFramework-v1_x_x.zip`，导入其中的 BlendShare `.unitypackage`。
+- 或使用 VCC/ALCOM 安装。参考 [BlendShare import instructions](/zh-hans/blendshare/blendshapes-assets#import)。
+
+**Face Tracking Framework**
+- 打开（或解压）`TriturboFaceTrackingFramework-v1_x_x.zip`，导入其中的 **Triturbo Face Tracking Framework** `.unitypackage`。
+:::
+
+## Step 3: 导入 Face Tracking Addon
+
+1. 打开（或解压）`FaceTracking_v1_x_x_for_avatar.zip`，找到其中的 addon `.unitypackage` 文件。
+2. 将该 `.unitypackage` 导入到 Unity 项目。
+3. 导入后会出现新菜单 `TriturboFT`。
+
+![triturbo_ft](/triturbo_ft.png)
+
+4. 点击菜单按钮打开窗口。
+
+![ft_window](./assets/ft_window.png)
+
+5. 将 Avatar 的 *GameObject* 或 *Prefab* 拖到 `Avatar` 字段。
+
+![ft_window avatar](./assets/ft_window_avatar.png)
+
+6. 点击 `Apply Face Tracking Addon`。
+
+:::tip
+如果你不想修改原始 Avatar *GameObject*，请使用 `Apply Face Tracking as New Avatar`。
+:::
+
+带有 **face tracking addon** 的 Avatar 会出现在 *Hierarchy* 中。
+
 ![avatar_hierarchy](/avatar_hierarchy.png)
 
-## 如何取得FBX档案？
-如果您需要取得FBX档案进行进一步修改，请参考以下文章。
-
-[我需要一个带有型态键的FBX文件，在哪里可以获得？](./blendshare)
-
-
 ## 预设选项
-在安装时，你会看到有多个预设选项可选，其中包含：
+
+安装过程中你会看到以下预设：
 - HD
 - HD (VIVE)
 - HD (Quest, Pico)
 - SD
 
-预设选项会因版本不同而有更多或更少的种类，其中的的设定也各自不同，但是都会遵守命名规则。\
-HD 与 SD 代表者**解析度**的不同，HD有着更高的解析度但是需要更多的同步参数。（括号）内表示针对该设备进一步优化参数的使用量，若不标注设备，则为通用版本，使用更多参数保证所有设备有着最佳效果。
-> 若您有多种设备，请选择通用版本。
-::: details ⚙ 参数的解析度
-由于面捕需要大量参数，并且透过Expression Parameters 进行网路同步，而VRChat对此上限为 256 比特。
+可用选项可能因版本而变化，但命名规则保持一致。
 
-- `Bool` 参数需要 `1` 比特。
-- `Int` 和 `Float` 需要 `8` 比特。
+- `HD` vs `SD`：分辨率配置（`HD` 精度更高，但会使用更多同步参数）。
+- 括号中的设备名：针对该设备类型优化。
+- 无设备名：通用配置，兼容范围更广。
 
-我们透过量化参数的技巧降低浮点数所需的比特数。
+:::tip
+如果你使用多个设备，建议选择通用版（无设备名）。
 :::
 
+::: details 参数分辨率
+Face tracking 需要大量 Expression Parameters 进行网络同步，而 VRChat 上限是 256 bits。
 
-### VIVE 与 Quest, Pico 版本的差异
+- `Bool` 使用 `1` bit
+- `Int` 和 `Float` 使用 `8` bits
 
-VIVE 使用 SRanipal 参数相较 Quest 与 Pico 设备在眼睛方面少了眉毛侦测、多了瞳孔直径。
-而在嘴部少了 MouthDimple, MouthStretch, NoseSneer。
-
-::: info 💡 上述说明仅代表 VIVE Pro Eye设备
-- VIVE Focus 3 +  表情侦测套件
-- VIVE Focus Vision
-- VIVE XR Elite + 全脸侦测套件
-
-等上述设备不支持瞳孔直径侦测，另外也不支持EyeWide（睁大眼睛）, EyeSquint（挤压眼皮）。\
-而在嘴部捕捉部分各个VIVE设备基本表现一致。
+Framework 使用参数量化来降低类似 float 行为所需的比特成本。
 :::
+
+### VIVE 与 Quest/Pico 的差异
+
+与 Quest/Pico 相比，VIVE（SRanipal parameters）有以下差异：
+- Eye tracking：不支持眉毛检测，但支持瞳孔直径检测。
+- Mouth tracking：不支持 `MouthDimple`、`MouthStretch`、`NoseSneer`。
+
+::: info
+以上说明仅针对 **VIVE Pro Eye**。
+
+以下设备不支持瞳孔直径，也不支持 `EyeWide` 与 `EyeSquint`：
+- **VIVE Focus 3 + Facial Expression Detection Kit**
+- **VIVE Focus Vision**
+- **VIVE XR Elite + Full-Face Detection Kit**
+
+在嘴部捕捉质量方面，各 VIVE 设备整体表现接近。
+:::
+
+## 需要 FBX 文件？
+
+如果你需要可继续修改的含 face tracking blendshapes 的 FBX，请参考：
+
+[我需要一个带有面部追踪 blendshapes 的 FBX 文件，在哪里可以获取？](./blendshare)
+
+<style scoped>
+
+
+
+
+.ft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 10px 0 18px;
+}
+
+.ft-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: var(--vp-c-bg-soft);
+}
+
+.ft-card h3 {
+  margin: 0 0 4px;
+  font-size: 0.92rem;
+}
+
+.ft-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+</style>
 
 <!--@include: ../contact-us.md-->

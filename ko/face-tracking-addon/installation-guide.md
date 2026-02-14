@@ -1,77 +1,161 @@
-# <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 페이셜트레킹 애드온 설치 가이드
-## 에셋 및 패키지 임포트하기
-- [<img src="/modular_avatar_icon.png" alt="Triturbo" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/>](https://modular-avatar.nadena.dev/) 모듈러아바타 (≥1.9.0)
-- 오리지널 아바타
-- **BlendShare**：제작자가 개발한 블렌드쉐이프 추출 및 배포도구입니다.\
-*페이셜 파일에 포함됨*
-<img src="/blendshare_unitypackage.png" alt="blendshare" style="width: 256px; height: 32px; vertical-align: middle;"/>
+# <img src="/triturbo_logo.png" alt="Triturbo" style="width: 32px; height: 32px; vertical-align: -4px; display: inline;"/> 페이스 트래킹 애드온 설치 가이드
 
-- 신규: **Triturbo Face Tracking Framework**\
- ![chocolat booth download](/chocolat_booth_download.png)
-  BOOTH에서 다운로드해 주세요. (일부 이전 애드온은 이 업데이트가 필요하지 않을 수 있습니다)
-  BOOTH 다운로드 페이지에 표시되면 꼭 다운로드해 주세요.
+## 빠른 체크리스트
+<div class="ft-grid">
+  <div class="ft-card">
+    <h3>1) 다운로드</h3>
+    <p>BOOTH에서 ZIP 2개를 다운로드합니다.</p>
+  </div>
+  <div class="ft-card">
+    <h3>2) 필수 패키지 설치</h3>
+    <p>Avatar, Modular Avatar, BlendShare, Framework를 설치합니다.</p>
+  </div>
+  <div class="ft-card">
+    <h3>3) 애드온 임포트</h3>
+    <p>아바타 전용 face tracking 패키지를 임포트합니다.</p>
+  </div>
+  <div class="ft-card">
+    <h3>4) 아바타에 적용</h3>
+    <p>face tracking addon을 아바타에 적용합니다.</p>
+  </div>
+</div>
 
-## Face Tracking Addon 임포트
-- **콘텐츠 다운로드**\
-[Booth](https://triturbo.booth.pm/) 샵에서 패키지 다운로드.
-- **Unity 패키지 임포트**\
-프로젝트에 `.unitypackage` 임포트.
+## Step 1: 필수 다운로드 (BOOTH)
 
-임포트 한 후 새 메뉴가 나타납니다.
-![triturbo_ft](/triturbo_ft.png)
+[Booth 스토어](https://triturbo.booth.pm/)에서 다운로드하세요.
 
-`TriturboFT` 메뉴를 클릭한 후 창을 열어주세요.
-![ft_window](./assets/ft_window.png)
+![chocolat booth download](/chocolat_booth_download.png)
 
-Hierarchy 에 있는 아바타 오브젝트나 프리팹을 상자로 끌어다 놓습니다.
-![ft_window](./assets/ft_window_avatar.png)
-
-마지막으로 페이스 트래킹 애드온 적용 을 클릭합니다.
+- `FaceTracking_v1_x_x_for_avatar.zip`\
+Face Tracking Addon `.unitypackage`가 들어 있습니다.
+- `TriturboFaceTrackingFramework-v1_x_x.zip`\
+**Triturbo Face Tracking Framework** `.unitypackage`와 **BlendShare** `.unitypackage`가 들어 있습니다.
 
 :::info
-💡 원래 아바타의 수정을 원하지 않으시면, `새 아바타로 페이스 트래킹 적용` 를 클릭합니다.
+두 ZIP 파일 모두 필요합니다.
 :::
 
-페이셜이 적용되어있는 아바타가 Hierarchy 에 나옵니다.
+## Step 2: 필수 패키지 설치
+
+1. 원본 Avatar
+2. [<img src="/modular_avatar_icon.png" alt="Modular Avatar" style="width: 24px; height: 24px; vertical-align: -4px; display: inline;"/> Modular Avatar](https://modular-avatar.nadena.dev/) (`>= 1.9.0`)
+3. **BlendShare**
+4. **Triturbo Face Tracking Framework**
+
+:::info 패키지 설치 방법
+**BlendShare**
+- `TriturboFaceTrackingFramework-v1_x_x.zip`를 열기(또는 압축 해제) 후 BlendShare `.unitypackage`를 임포트합니다.
+- 또는 VCC/ALCOM으로 설치할 수 있습니다. [BlendShare import instructions](/ko/blendshare/blendshapes-assets#import)을 참고하세요.
+
+**Face Tracking Framework**
+- `TriturboFaceTrackingFramework-v1_x_x.zip`를 열기(또는 압축 해제) 후 **Triturbo Face Tracking Framework** `.unitypackage`를 임포트합니다.
+:::
+
+## Step 3: Face Tracking Addon 임포트
+
+1. `FaceTracking_v1_x_x_for_avatar.zip`를 열기(또는 압축 해제) 후, 내부의 addon `.unitypackage` 파일을 찾습니다.
+2. 해당 `.unitypackage`를 Unity 프로젝트에 임포트합니다.
+3. 임포트 후 새 메뉴 `TriturboFT`가 표시됩니다.
+
+![triturbo_ft](/triturbo_ft.png)
+
+4. 메뉴의 버튼을 눌러 창을 엽니다.
+
+![ft_window](./assets/ft_window.png)
+
+5. 아바타 *GameObject* 또는 *Prefab*을 `Avatar` 필드로 드래그합니다.
+
+![ft_window avatar](./assets/ft_window_avatar.png)
+
+6. `Apply Face Tracking Addon`을 클릭합니다.
+
+:::tip
+원본 아바타 *GameObject*를 수정하고 싶지 않다면 `Apply Face Tracking as New Avatar`를 사용하세요.
+:::
+
+**face tracking addon**이 적용된 아바타가 *Hierarchy*에 생성됩니다.
+
 ![avatar_hierarchy](/avatar_hierarchy.png)
 
-### 번역하다
-[@ssoni_vrc](https://x.com/ssoni_vrc)
-## FBX 파일 획득 방법  
-FBX 파일을 획득하여 추가 수정을 하고 싶다면, 아래의 기사를 참고하세요.
+## 프리셋 옵션
 
-[페이스 트래킹 블렌드셰이프가 포함된 FBX 파일이 필요합니다. 어디에서 구할 수 있나요?](./blendshare)
-
-## 프리셋 옵션  
-설치 시 다음과 같은 여러 프리셋 옵션이 표시됩니다:
+설치 중 다음과 같은 프리셋 옵션이 표시됩니다:
 - HD
 - HD (VIVE)
 - HD (Quest, Pico)
 - SD
 
-프리셋 옵션은 버전에 따라 달라지며, 설정이 더 많거나 적을 수 있지만, 모두 명명 규칙을 따릅니다.  
-HD와 SD는 **해상도** 차이를 나타내며, HD는 더 높은 해상도를 제공하지만 더 많은 동기화 파라미터가 필요합니다. 괄호 안에 있는 장치 이름은 특정 장치에 최적화된 것을 나타내며, 장치 이름이 없는 경우에는 일반 버전으로, 모든 장치에서 최상의 성능을 보장하기 위해 더 많은 파라미터를 사용합니다.  
-> 여러 장치를 가지고 있다면 일반 버전을 선택하는 것을 권장합니다.
+버전에 따라 표시되는 옵션은 달라질 수 있지만, 이름 규칙은 동일합니다.
 
-::: details ⚙ 파라미터 해상도  
-페이스 트래킹에는 많은 파라미터가 필요하며, 네트워크 동기화를 위해 Expression Parameters를 사용합니다. VRChat의 제한은 256비트입니다.  
-- `Bool` 파라미터는 `1` 비트를 사용합니다.  
-- `Int` 및 `Float`은 `8` 비트를 사용합니다.
+- `HD` vs `SD`: 해상도 프로필 차이 (`HD`가 더 고품질이지만 동기화 파라미터를 더 많이 사용).
+- 괄호의 장치명: 해당 장치군에 최적화된 프로필.
+- 장치명 없음: 여러 장치를 위한 범용 프로필.
 
-우리는 부동소수점 숫자에 필요한 비트 크기를 줄이기 위해 파라미터 양자화 기술을 사용합니다.  
+:::tip
+여러 장치를 사용한다면 범용 버전(장치명 없는 버전)을 선택하세요.
 :::
 
-### VIVE와 Quest, Pico 버전의 차이점
-- VIVE는 SRanipal 파라미터를 사용하며, Quest와 Pico 장치와 비교했을 때:
-  - 눈 부분에서는 눈썹 감지가 없고, 대신 동공 지름 감지가 있습니다.
-  - 입 부분에서는 MouthDimple, MouthStretch, NoseSneer 감지가 없습니다.
+::: details 파라미터 해상도
+Face tracking은 네트워크 동기화를 위해 많은 Expression Parameters를 사용하며, VRChat 제한은 256 bits입니다.
 
-::: info 💡 상기 설명은 **VIVE Pro Eye** 장비에만 해당됩니다.
-- VIVE Focus 3 + Facial Expression Tracking Kit 
-- VIVE Focus Vision  
-- VIVE XR Elite + Full-Face Tracking Kit
+- `Bool`은 `1` bit
+- `Int`와 `Float`는 `8` bits
 
-위의 장비들은 동공 지름 감지를 지원하지 않으며, `EyeWide`(눈을 크게 뜨는 것)와 `EyeSquint`(눈을 찡그리는 것)도 지원하지 않습니다. 입 부분 감지에서는 모든 VIVE 장비가 기본적으로 동일한 성능을 보입니다.
+Framework는 양자화(quantization)로 float 유사 동작의 비트 사용량을 줄입니다.
 :::
+
+### VIVE vs Quest/Pico 차이
+
+Quest/Pico 대비 VIVE(SRanipal parameters)의 차이:
+- Eye tracking: 눈썹 감지는 없지만 동공 지름 감지는 있습니다.
+- Mouth tracking: `MouthDimple`, `MouthStretch`, `NoseSneer`는 지원되지 않습니다.
+
+::: info
+위 설명은 **VIVE Pro Eye** 기준입니다.
+
+아래 장치는 동공 지름을 지원하지 않으며 `EyeWide`, `EyeSquint`도 지원하지 않습니다:
+- **VIVE Focus 3 + Facial Expression Detection Kit**
+- **VIVE Focus Vision**
+- **VIVE XR Elite + Full-Face Detection Kit**
+
+입 추적 품질은 VIVE 장치 간에 전반적으로 유사합니다.
+:::
+
+## FBX 파일이 필요한가요?
+
+추가 수정용 FBX 파일이 필요하면 아래 문서를 참고하세요:
+
+[페이스 트래킹 블렌드셰이프가 포함된 FBX 파일이 필요합니다. 어디에서 구할 수 있나요?](./blendshare)
+
+<style scoped>
+
+
+
+
+.ft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 10px 0 18px;
+}
+
+.ft-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: var(--vp-c-bg-soft);
+}
+
+.ft-card h3 {
+  margin: 0 0 4px;
+  font-size: 0.92rem;
+}
+
+.ft-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+</style>
 
 <!--@include: ../contact-us.md-->
